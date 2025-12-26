@@ -237,73 +237,87 @@ python scripts/enrich_graph.py
 
 ## 🏗️ Architecture
 
-<details>
+<details open>
 <summary><b>📐 Click to see system architecture</b></summary>
 
+```mermaid
+graph TD
+    A[📄 Raw PDFs: data/] --> B{📋 Quality Gate}
+    B -- Invalid/Corrupted --> C[❌ Pipeline Halted: Error Report]
+    B -- Valid PDFs --> D[🔍 Metadata Extraction]
+    D --> E[📝 Text Extraction]
+    E --> F[🧠 NLP Processing]
+    F --> G[Entity Recognition: spaCy]
+    F --> H[Result Mining: Heuristics]
+    F --> I[Citation Parsing: Regex]
+    G --> J{✅ Extraction Quality Gate}
+    H --> J
+    I --> J
+    J -- Low Quality --> K[⚠️ Manual Review Required]
+    J -- High Quality --> L[📊 Graph Enrichment]
+    L --> M[Neo4j Database]
+    M --> N[Papers: 39 nodes]
+    M --> O[Methods: 19 nodes]
+    M --> P[Results: 203 nodes]
+    M --> Q[BrainRegions: 18 nodes]
+    M --> R[Diseases: 20 nodes]
+    N --> S{🎯 Completeness Gate}
+    O --> S
+    P --> S
+    Q --> S
+    R --> S
+    S -- Nodes < 100 --> T[⚠️ Enrichment Warning]
+    S -- Nodes >= 100 --> U[✨ Artifact Generation]
+    U --> V[graph_dump/paperpath.json]
+    U --> W[graph_dump/paperpath.cypher]
+    V --> X[🔌 Flask REST API]
+    W --> X
+    X --> Y[⚡ React Frontend]
+    Y --> Z[🎨 2D/3D Visualization]
+    Z --> AA[🚀 Production Deployment]
+    
+    style A fill:#4A90E2
+    style B fill:#F5A623
+    style C fill:#D0021B
+    style J fill:#F5A623
+    style K fill:#F8E71C
+    style M fill:#7ED321
+    style S fill:#F5A623
+    style T fill:#F8E71C
+    style AA fill:#50E3C2
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      PaperPath System                        │
-└─────────────────────────────────────────────────────────────┘
 
-┌──────────────┐
-│ PDF Papers   │
-│  (data/)     │
-└──────┬───────┘
-       │
-       ▼
-┌──────────────────────────────────────────┐
-│   EXTRACTION PIPELINE                    │
-├──────────────────────────────────────────┤
-│  1. Metadata Generator                   │
-│     └─→ extract title, authors, year    │
-│                                          │
-│  2. Text Extractor                       │
-│     └─→ PDF to plain text               │
-│                                          │
-│  3. NLP Processor                        │
-│     ├─→ Entity Recognition (spaCy)      │
-│     ├─→ Result Mining (heuristics)      │
-│     └─→ Citation Parsing (regex)        │
-└──────────────┬───────────────────────────┘
-               │
-               ▼
-┌──────────────────────────────────────────┐
-│   NEO4J GRAPH DATABASE                   │
-├──────────────────────────────────────────┤
-│  Nodes:                                  │
-│  • Papers (46 → 299)                     │
-│  • Methods (0 → 19)                      │
-│  • Results (0 → 203)                     │
-│  • BrainRegions (0 → 18)                 │
-│  • Diseases (7 → 20)                     │
-│                                          │
-│  Relationships:                          │
-│  • USES_METHOD (26 → 491)                │
-│  • STUDIES_REGION                        │
-│  • HAS_RESULT                            │
-│  • CITES                                 │
-└──────────────┬───────────────────────────┘
-               │
-               ▼
-┌──────────────────────────────────────────┐
-│   FLASK REST API                         │
-├──────────────────────────────────────────┤
-│  GET  /api/graph                         │
-│  GET  /api/node/:id                      │
-│  GET  /api/search?q=query                │
-│  GET  /api/export?format=json            │
-└──────────────┬───────────────────────────┘
-               │
-               ▼
-┌──────────────────────────────────────────┐
-│   REACT FRONTEND                         │
-├──────────────────────────────────────────┤
-│  • Force-Directed Layout (2D/3D)         │
-│  • Real-time Filtering                   │
-│  • Node Details Panel                    │
-│  • Syntax-Highlighted JSON               │
-└──────────────────────────────────────────┘
-```
+### Pipeline Flow Explained
+
+**Stage 1: Data Ingestion & Validation**
+- Raw PDF papers are validated for format integrity
+- Corrupted or invalid files trigger error reports
+- Valid papers proceed to extraction pipeline
+
+**Stage 2: Multi-Phase Extraction**
+- **Metadata Extraction**: Title, authors, year, DOI
+- **Text Extraction**: PDF → Plain text conversion
+- **NLP Processing**: Entity recognition, result mining, citation parsing
+
+**Stage 3: Quality Assurance**
+- Extraction quality gate ensures minimum standards
+- Low-quality extractions flagged for manual review
+- High-quality data proceeds to graph enrichment
+
+**Stage 4: Graph Database Population**
+- Neo4j receives structured entities and relationships
+- Nodes created for Papers, Methods, Results, Regions, Diseases
+- Relationships established: USES_METHOD, STUDIES_REGION, HAS_RESULT, CITES
+
+**Stage 5: Completeness Validation**
+- Ensures minimum node count threshold (100+ nodes)
+- Warns if enrichment is incomplete
+- Generates verifiable artifacts upon success
+
+**Stage 6: Deployment**
+- Flask API exposes graph data via REST endpoints
+- React frontend consumes API for visualization
+- Production-ready 2D/3D interactive interface
 
 </details>
 
@@ -854,14 +868,6 @@ gh pr create --title "Add amazing feature" --body "Description..."
 [![Discussions](https://img.shields.io/badge/Discuss-Forum-green?style=for-the-badge)](https://github.com/yourusername/paperpath/discussions)
 
 </div>
-
----
-
-<div align="center">
-
-### Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/paperpath&type=Date)](https://star-history.com/#yourusername/paperpath&Date)
 
 ---
 
