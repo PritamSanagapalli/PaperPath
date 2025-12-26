@@ -1,0 +1,56 @@
+services:
+  neo4j:
+    image: neo4j:5.12.0
+    container_name: neo4j_science_graph
+    ports:
+      - "7474:7474" # HTTP
+      - "7687:7687" # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/password123
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/logs:/logs
+      - ./neo4j/import:/var/lib/neo4j/import
+      - ./neo4j/plugins:/plugins
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "password123", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  processor:
+    build: .
+    container_name: science_graph_processor
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=password123
+
+  backend:
+    build: .
+    container_name: science_graph_backend
+    command: python backend/app.py
+    ports:
+      - "5001:5001"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      - NEO4J_URI=bolt://neo4j:7687
+      - NEO4J_USER=neo4j
+      - NEO4J_PASSWORD=password123
+
+  frontend:
+    build: ./frontend
+    container_name: science_graph_frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+
