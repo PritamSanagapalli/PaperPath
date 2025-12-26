@@ -1,0 +1,6331 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "A negative \u03b1Syn-SAA in PD is associated with a distinct phenotype and pathological findings suggesting that these patients may have a motor subtype ofAlzheimer\u2019sdisease.",
+        "id": "paper_001_res_0"
+      }
+    },
+    {
+      "id": 1,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Theauthorsfoundthat,basedonclini- cal features and autopsy findings, SAA\u2013 PD and SAA+ in cerebrospinal fluid (CSF), with numerous studies pointing to its PSP(i.e.,SAA-incongruent)patientshaveahighdegree potentialutilityinclinicalroutine,highlightingitshighsensitivityand specificity.24\u201330",
+        "id": "paper_001_res_1"
+      }
+    },
+    {
+      "id": 2,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Future directions: Our findings suggest that the \u03b1Syn- SAAisarobustassaythatmaybeusedtobetterdiagnose anongoingdebateastowhethersuchpatientsshouldbeclassifiedas patientswithmovementdisorders.",
+        "id": "paper_001_res_2"
+      }
+    },
+    {
+      "id": 3,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Alldiagnoseswereestablishedbyconsensusbetween order Society (MDS) criteria and based on the overall performance atleasttwoexperiencedmovementdisorderneurologistsaccording and the cognitive test results.39,40 Olfactory function was investi- to clinical diagnostic criteria at the latest follow-up.",
+        "id": "paper_001_res_3"
+      }
+    },
+    {
+      "id": 4,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "dementia"
+      }
+    },
+    {
+      "id": 5,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "stroke"
+      }
+    },
+    {
+      "id": 6,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "alzheimer"
+      }
+    },
+    {
+      "id": 7,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "rigidity"
+      }
+    },
+    {
+      "id": 8,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "bradykinesia"
+      }
+    },
+    {
+      "id": 9,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "parkinson"
+      }
+    },
+    {
+      "id": 10,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "tremor"
+      }
+    },
+    {
+      "id": 11,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "t-test"
+      }
+    },
+    {
+      "id": 12,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "cortex"
+      }
+    },
+    {
+      "id": 13,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "1 10 \u00b1 0-67t 191 \u00b1 1.18t 3-50 \u00b1 1-03t *, tSignificantlydifferent(Student's t-test) fromthenormal (p < 0.01 and <0001).",
+        "id": "paper_002_res_0"
+      }
+    },
+    {
+      "id": 14,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "\u00a7lSignificantdifferencebetween thetwoParkinsonian sub-groups(p < 0-05 intemporalcortexandp < 0-01 in theremainingareas),none of differencesbetweensub-group(b) andthegroupwithAlzheimer'sdisease reachedsignificance.",
+        "id": "paper_002_res_1"
+      }
+    },
+    {
+      "id": 15,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "\"' formwas reducedto 17% ofthe normallevelwhilst the lower(3.7S) and higher(16S) molecularweight Results forms were unaffected.",
+        "id": "paper_002_res_2"
+      }
+    },
+    {
+      "id": 16,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "depression"
+      }
+    },
+    {
+      "id": 17,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "I C L E I N F O A B S T R A C T Keywords: Parkinsoniansyndromesarecharacterisedbysimilarmotor-relatedsymptomologyresultingfromdopaminergic Ironhomeostasis neurondamage.",
+        "id": "paper_003_res_0"
+      }
+    },
+    {
+      "id": 18,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thus,weexplorethecurrentfindingsrelatingtotherelationshipof Neurodegeneration parkinsonismproteinopathy(\u03b1-synucleininPD,andtauinPSP/CBD)paralleledtoaspecificformofcelldeath, Mitochondria ferroptosis.",
+        "id": "paper_003_res_1"
+      }
+    },
+    {
+      "id": 19,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Redox Biology 79 (2025) 103478 current findings relating to the relationship of proteinopathy and fer-",
+        "id": "paper_003_res_2"
+      }
+    },
+    {
+      "id": 20,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Summary of the literature reviewed in text and the trends observed in the intracellulariron NOXb PotentiatesROS \u2191 MPTP-inducedPD expressionofferroptosis-relatedmarkersinPDandTauopathymodels.",
+        "id": "paper_003_res_3"
+      }
+    },
+    {
+      "id": 21,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "[131] Ferritin Iron-storingprotein \u2191 SWIbimagesofCBDb routesforexcessiron[12].Asaresult,ourcellsareequippedwithho- patients\u2019SN[125] meostaticmechanismsthathelpmaintainironconcentrationsandpro- Ferroportin Ironexporter \u2193a",
+        "id": "paper_003_res_4"
+      }
+    },
+    {
+      "id": 22,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "anova"
+      }
+    },
+    {
+      "id": 23,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "parietal lobe"
+      }
+    },
+    {
+      "id": 24,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "substantia nigra"
+      }
+    },
+    {
+      "id": 25,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "frontal lobe"
+      }
+    },
+    {
+      "id": 26,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "elderlypeople, probablythe secondmostcom- Results-The severity oftotal motor dis-",
+        "id": "paper_004_res_0"
+      }
+    },
+    {
+      "id": 27,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "This is an important finding, but its use- reflect sampling bias, with some studies fulness in the day to day clinical setting is including only patients with a clinical diagno- likely to be limited by the complex nature of sis of Alzheimer's disease,69 whereas others this test.",
+        "id": "paper_004_res_1"
+      }
+    },
+    {
+      "id": 28,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thus the findings ofthese Methods studies are open to observer bias.",
+        "id": "paper_004_res_2"
+      }
+    },
+    {
+      "id": 29,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Preliminary results of this test have rise from an armless chair, walk 6 m, return, been reported elsewhere.35 and sit down.",
+        "id": "paper_004_res_3"
+      }
+    },
+    {
+      "id": 30,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "scale that uses information from interviews with both the patient and their carers.30 The STATISTICALANALYSIS CSDD scale is especially suited for assessing Inalltests,thenullhypothesiswasrejectedata depression in patients with dementia (maxi- significance level ofP < 0 05.",
+        "id": "paper_004_res_4"
+      }
+    },
+    {
+      "id": 31,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "statistical analysis"
+      }
+    },
+    {
+      "id": 32,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "striatum"
+      }
+    },
+    {
+      "id": 33,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "basal ganglia"
+      }
+    },
+    {
+      "id": 34,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "putamen"
+      }
+    },
+    {
+      "id": 35,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "globus pallidus"
+      }
+    },
+    {
+      "id": 36,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "amygdala"
+      }
+    },
+    {
+      "id": 37,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "hippocampus"
+      }
+    },
+    {
+      "id": 38,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Physical activities were limited by 2015 because of gait ofthelefthandwhiledrivingin2009.Hethendevelopedslow- dysfunction resulting in a fall requiring surgery for a vertebral ness, shuffling gait and difficulty rising from a chair.",
+        "id": "paper_005_res_0"
+      }
+    },
+    {
+      "id": 39,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Hismentalstatusdeclineacceleratedatthispointsothat observedamaskedfacialexpressionandmicrographia.",
+        "id": "paper_005_res_1"
+      }
+    },
+    {
+      "id": 40,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "He had difficulty finding words and inationin2009hehadaslightrestingtremor,bradykinesia,mus- couldnotparticipateinconversationwithfamilymembers.",
+        "id": "paper_005_res_2"
+      }
+    },
+    {
+      "id": 41,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Pathological Findings Grossneuropathologicexaminationdemonstratedaverypalesub- stantianigra(Fig.1)andgeneralizedcorticalatrophy.",
+        "id": "paper_005_res_3"
+      }
+    },
+    {
+      "id": 42,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Theyinferredthatinvolvementofthestriatumand J.F.:1A,1B,1C,3B. substantia nigra by AD pathology was severe enough to cause clinical symptomatology indistinguishable from idiopathic PD.9 Hughes et al,10 reported autopsy results for 100 patients diag- nosed with PD.",
+        "id": "paper_005_res_4"
+      }
+    },
+    {
+      "id": 43,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "ResultsshowedasignificantlylowerbloodzincinpatientswithAlzheimer\u2019sandpatientswithParkinson\u2019sthan incontrols.",
+        "id": "paper_006_res_0"
+      }
+    },
+    {
+      "id": 44,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Urinezincexcretion,normalizedtourinecreatinineexcretion,wasnotsignificantlydifferentineitherpatientgroup comparedto controls.",
+        "id": "paper_006_res_1"
+      }
+    },
+    {
+      "id": 45,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Participants and patients had ADandPD.Unexpectedsignificantlylowserumzincconcentra- not taken copper or zinc supplement for 30 days prior to the tionswerefoundinpatientswithADandPDcomparedtoage- study.",
+        "id": "paper_006_res_2"
+      }
+    },
+    {
+      "id": 46,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thesefindingswerepreviouslyreportedinan written informed consentpriortostarting study procedures.",
+        "id": "paper_006_res_3"
+      }
+    },
+    {
+      "id": 47,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results Demographic, MMSE, and UPDRS data on the patients are shown in Table 1.",
+        "id": "paper_006_res_4"
+      }
+    },
+    {
+      "id": 48,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Patients with AD were significantly older frominfection,cancer,orinflammation.",
+        "id": "paper_006_res_5"
+      }
+    },
+    {
+      "id": 49,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Patients with AD probably suffer significantly fewer femalesthan the normalgroup.",
+        "id": "paper_006_res_6"
+      }
+    },
+    {
+      "id": 50,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "from oxidant damage in the brain, but this does not appear to The serum zinc data are shown in Figure 1 and tabled in cause the kind of inflammatory signal that triggers an acute- Table2.PatientswithADandPDbothhadsignificantlylower phase response.",
+        "id": "paper_006_res_7"
+      }
+    },
+    {
+      "id": 51,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Mean serumzinclevelsaresignificantlylowerthancontrolsinpatientswith AD (P \u00bc .027) and patients with PD (P \u00bc .038).",
+        "id": "paper_006_res_8"
+      }
+    },
+    {
+      "id": 52,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "groups to normal controls, many of whom are also zinc bSignificantlydifferentatP\u00bc.038(standardttest);P\u00bc.084(nonparametric deficient.",
+        "id": "paper_006_res_9"
+      }
+    },
+    {
+      "id": 53,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "pedunculopontine nucleus"
+      }
+    },
+    {
+      "id": 54,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In PSP a significant 60% neuronal loss in PPNc was associated with neurofibrillary tangles in 40 to 64% ofthe remaining neurons.",
+        "id": "paper_007_res_0"
+      }
+    },
+    {
+      "id": 55,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In Parkinson's disease there was a significant decrease in cell numbers and density by 53 and 51%, respectively, with Lewy bodies involving 6 to 39% ofall neurons.",
+        "id": "paper_007_res_1"
+      }
+    },
+    {
+      "id": 56,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results (a)FourteencasesofParkinson'sdisease,allexceptonewith mixedtremor, rigidity andakinesia, presentingwitharigid While in controls the mean number oflarge neurons akinetic syndrome; dementia was recorded in five. Neuro-",
+        "id": "paper_007_res_2"
+      }
+    },
+    {
+      "id": 57,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "'8 tangles) have been reported in several subcortical Significantcell losshasbeenreportedinthecholiner- nuclei in both Parkinson's and Alzheimer's dis- gic nucleus basalis of Meynert in both Parkinson's eases.",
+        "id": "paper_007_res_3"
+      }
+    },
+    {
+      "id": 58,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "FunctionsoftheBasal paredwithagematchedcontrols,9whilenosignificant Ganglia.",
+        "id": "paper_007_res_4"
+      }
+    },
+    {
+      "id": 59,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Alzheimer's disease/SDAT.9 10 Similar results were 5 Usonoff KG.",
+        "id": "paper_007_res_5"
+      }
+    },
+    {
+      "id": 60,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "BeninatoM,SpencerRF.Acholinergicprojectiontotheratsub- thepresentseriesasignificant60% neuronallosswith stantia nigra from the pedunculopontine tegmental nucleus.",
+        "id": "paper_007_res_6"
+      }
+    },
+    {
+      "id": 61,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "functional connectivity"
+      }
+    },
+    {
+      "id": 62,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "mri"
+      }
+    },
+    {
+      "id": 63,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "prefrontal cortex"
+      }
+    },
+    {
+      "id": 64,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Theanti-correlation relationship was corroboratedafter global signal re- moval, underscoring this finding as a robust property of the functional connectivity signature in the rat brain.",
+        "id": "paper_008_res_0"
+      }
+    },
+    {
+      "id": 65,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "tionships have begun to be observed (Liang et al., 2012).",
+        "id": "paper_008_res_1"
+      }
+    },
+    {
+      "id": 66,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "thorities(Regierungspra\u00a8sidiumKarlsruhe)andconductedatthe Theresultingfilteredtimeserieswerespatiallynormalized CentralInstituteofMentalHealthinMannheim,Germany.",
+        "id": "paper_008_res_2"
+      }
+    },
+    {
+      "id": 67,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Alin- late/prefrontal network previously observed (Schwarz ear transmitter coil combined with rat brain linear receive- et al., 2013), and is slightly anterior to the anterior cortical only coil array were used for radiofrequency transmission seedc01usedinthatpaper.",
+        "id": "paper_008_res_3"
+      }
+    },
+    {
+      "id": 68,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "globally corrected ROI pairs, and the comparison between them, the tests were corrected for multiple comparisons Results usingtheBenjamini\u2013Hochbergmethodandafalsediscovery rateof0.05.",
+        "id": "paper_008_res_4"
+      }
+    },
+    {
+      "id": 69,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "graph theory"
+      }
+    },
+    {
+      "id": 70,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "fmri"
+      }
+    },
+    {
+      "id": 71,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "temporal lobe"
+      }
+    },
+    {
+      "id": 72,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Therewasasignificantproportionofdecreasingconnectionsbetweenthecingulo-operculartaskcontrol networkandothernetworks.",
+        "id": "paper_009_res_0"
+      }
+    },
+    {
+      "id": 73,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thesefindingssuggestthatepilepsyaltersbrainefficiency inaconsistentpatternatthewhole-brainlevel,yetaltersbrainfunctionalnetworksandindividualbrainregions differently.",
+        "id": "paper_009_res_1"
+      }
+    },
+    {
+      "id": 74,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Head motion has been shown to significantly affect the Subjects RSFC measures (Saad et al., 2009; Satterthwaite et al., 2012; Currentfindingsarebasedondataacquiredfromnineep- VanDijketal.",
+        "id": "paper_009_res_2"
+      }
+    },
+    {
+      "id": 75,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "An averaged time ber of slices=40, acquisition matrix=64\u00b764, FOV=224\u00b7 series signal resulting from the preprocessed rs-fMRI data 224mm2, voxel size=3.5\u00b73.5\u00b73.5mm3, and NEX=1.",
+        "id": "paper_009_res_3"
+      }
+    },
+    {
+      "id": 76,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "These was significantly decreased in epilepsy across a range of twohigher-levelgraphmetricswereestimatedonunweighted thresholds (Fig. 1).",
+        "id": "paper_009_res_4"
+      }
+    },
+    {
+      "id": 77,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "epilepsy"
+      }
+    },
+    {
+      "id": 78,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "dti"
+      }
+    },
+    {
+      "id": 79,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "classification"
+      }
+    },
+    {
+      "id": 80,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "diffusion tensor imaging"
+      }
+    },
+    {
+      "id": 81,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "gray matter"
+      }
+    },
+    {
+      "id": 82,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "white matter"
+      }
+    },
+    {
+      "id": 83,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "WedemonstratethattheASDsamplehassignificantlylesscoherenceinwhitemattermicrostructure acrossthebraincomparedtothatinthetypicaldevelopmentsample.",
+        "id": "paper_010_res_0"
+      }
+    },
+    {
+      "id": 84,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Our findings are consistent with those of a growing number of studies and hypotheses that have suggested disrupted brain connectivity in ASD.",
+        "id": "paper_010_res_1"
+      }
+    },
+    {
+      "id": 85,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "matter tract properties across the brain over a broad age Anumberofanatomicalandmicrostructuralneuroimaging rangemayprovideinformationregardingabnormalbrainde- findingshaveshownASDtobeassociatedwithalteredcere- velopment.",
+        "id": "paper_010_res_2"
+      }
+    },
+    {
+      "id": 86,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Suchinformationmayprovidevaluableinsightto bral white matter, with the majority of such results coming identifymeaningfulsubgroupswithintheautismspectrum.",
+        "id": "paper_010_res_3"
+      }
+    },
+    {
+      "id": 87,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": ",2009;Shukla ties have been observed to differ in Alzheimer\u2019s disease etal.",
+        "id": "paper_010_res_4"
+      }
+    },
+    {
+      "id": 88,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": ",2015),andothers(Guyeetal.,2010).Theseresultspro- gests that the white matter microstructure has a significant vide converging evidence to support the potential of these roleinthebiologicalbasisandpathogenesisofASD.",
+        "id": "paper_010_res_5"
+      }
+    },
+    {
+      "id": 89,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "whitematterregionsandtractsweregroupedtorevealpatterns IV(AmericanPsychiatricAssociation,1994),andtheInter- of microstructural relatedness and to compare the observed national Statistical Classification of Diseases and Related patterns between those of typical development and ASD.",
+        "id": "paper_010_res_6"
+      }
+    },
+    {
+      "id": 90,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Typically strate group differences in global brain network features developingandASDparticipantsdidnotsignificantlydiffer from inter-regional correlations.",
+        "id": "paper_010_res_7"
+      }
+    },
+    {
+      "id": 91,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Additional analyses exam- on age t(133)=1.62, p=0.11, however, participants diag- ined whether ASD and TD groups differed in global and nosed with ASD had a significantly decreased full-scale IQ localcomplexnetworkfeaturesofthebrain,suchasmeande- (FSIQ),t(133)=5.96,p<0.001.",
+        "id": "paper_010_res_8"
+      }
+    },
+    {
+      "id": 92,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "autism"
+      }
+    },
+    {
+      "id": 93,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "thalamus"
+      }
+    },
+    {
+      "id": 94,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "cerebellum"
+      }
+    },
+    {
+      "id": 95,
+      "labels": [
+        "BrainRegion"
+      ],
+      "properties": {
+        "name": "corpus callosum"
+      }
+    },
+    {
+      "id": 96,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "However,CBsubjectsshowedsignificantlydecreasedglobalnet- workefficiencyandsignificantlyincreasedclusteringcoefficients(degreetowhichnodestendtoclusteraround individual nodes).",
+        "id": "paper_011_res_0"
+      }
+    },
+    {
+      "id": 97,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "larly the substantia nigra), and cerebellum (Cb), and lower teristics and focus on regional rather than network effects densitiesinthesensorycortices,thalamus,andhypothalamus withfewfindingsbeingreplicatedacrosslabs.",
+        "id": "paper_011_res_1"
+      }
+    },
+    {
+      "id": 98,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Subjects were recruited across studies is difficult, although several tentative findings using local newspaper advertisements and posted announce- have emerged.",
+        "id": "paper_011_res_2"
+      }
+    },
+    {
+      "id": 99,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "On the other hand, decreased University\u2013Purdue University Indianapolis Human Subjects task-evokedactivationhasbeenobservedinfrontalandtem- Review Committee.",
+        "id": "paper_011_res_3"
+      }
+    },
+    {
+      "id": 100,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "findingshavebeenobservedacrosslabs(Martin-Santosetal., and Schizotypal Personality Questionnaire (SPQ) (Raine, 2010).Onlyasmallnumberofdiffusiontensorimaging(DTI) 1991) were used to assess schizotypal personalitycharacteris- studies examining CB users have been reported and they tics.",
+        "id": "paper_011_res_4"
+      }
+    },
+    {
+      "id": 101,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "TheBarrattImpulsivenessScale(BIS),awidelyusedself- found mixed results.",
+        "id": "paper_011_res_5"
+      }
+    },
+    {
+      "id": 102,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "This suggests diovascular disease, disorders of hearing, neurological dis- thatconnectivityamongbrainregionsmaybeespeciallysen- ease, learning disability, or head injury resulting in loss of sitivetoeitherendogenousvariationsinCB1functionordis- consciousness.",
+        "id": "paper_011_res_6"
+      }
+    },
+    {
+      "id": 103,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The development of techniques to delineate and quantify CB-related DSM-IV psychopathology were excluded from white matter structure through fiber tractography offers the the study to minimize the influence of those variables on possibilityofgeneratingacompleteconnectionmap(orcon- theresults.",
+        "id": "paper_011_res_7"
+      }
+    },
+    {
+      "id": 104,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "GrowingevidenceindicatesthatSVDmightplayasignificantroleintheneurobi- ologyofcentralnervoussystem(CNS)neurodegenerativedisorders,namelyAlzheimer\u2019sdisease (AD)andParkinson\u2019sdisease(PD),andneuroinflammatorydiseases,suchasmultiplesclerosis(MS).",
+        "id": "paper_012_res_0"
+      }
+    },
+    {
+      "id": 105,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "SinceSVDisacommonfindinginadult-agedlife,whenitalsocan co-occurwithcentralnervoussystem(CNS)degenerativeorinflammatorydiseases,itis relevanttoaddresssuchissues.",
+        "id": "paper_012_res_1"
+      }
+    },
+    {
+      "id": 106,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "multiple sclerosis"
+      }
+    },
+    {
+      "id": 107,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "deep learning"
+      }
+    },
+    {
+      "id": 108,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "cnn"
+      }
+    },
+    {
+      "id": 109,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "ThesignificantheterogeneityinherenttoAutism,coupledwiththediverse analysis,decisiontopublish,orpreparationofthe rangeoflong-termoutcomes,underscorestheneedforreliable,reproduciblebrainbiomark- manuscript.",
+        "id": "paper_013_res_0"
+      }
+    },
+    {
+      "id": 110,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Despiterecentprogressinpredictionaccuracy,machinelearningstudiesinthisfieldface twosignificantlimitations.",
+        "id": "paper_013_res_1"
+      }
+    },
+    {
+      "id": 111,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thisprocessresultedin797scansfromABIDEI,704fromABIDEIIand98fromADHD200 forouranalysis.",
+        "id": "paper_013_res_2"
+      }
+    },
+    {
+      "id": 112,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thisdiversityresultsin T1-weightedvolumeswithvaryingvoxelspacings,afactorthatcouldintroducebiasinour analysis.",
+        "id": "paper_013_res_3"
+      }
+    },
+    {
+      "id": 113,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "anxiety"
+      }
+    },
+    {
+      "id": 114,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "pet"
+      }
+    },
+    {
+      "id": 115,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Anomalydetection Findings:TheAUCoftheROCcurvefordifferentiatingADwas0.90.Thechangesincognitivescoresfrombaseline to2-yearfollow-upweresignificantlycorrelatedwithAbnormalityScoreatbaseline.",
+        "id": "paper_014_res_0"
+      }
+    },
+    {
+      "id": 116,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "AbnormalityScorewasthemeanreconstructionerrorof eachsubjectdividedbythemeanvalueofnormalsubjects'reconstruc- 3.Results tionerrors.",
+        "id": "paper_014_res_1"
+      }
+    },
+    {
+      "id": 117,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "segmentation"
+      }
+    },
+    {
+      "id": 118,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "regression"
+      }
+    },
+    {
+      "id": 119,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Despiteasignificantcorrelationbetweenclassificationandlesionlocalization Banitalebi,H.;Krogh,N.R.;Geitung, accuracy(R=0.46,p=0.005),theknownAIalgorithms,examinedinthisstudy,classifysometumor J.T.ExplainableArtificialIntelligence brainsbasedonothernon-relevantfeatures.",
+        "id": "paper_015_res_0"
+      }
+    },
+    {
+      "id": 120,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "TheresultssuggestthatexplainableAIapproachescan forHuman-MachineInteractionin developanintuitionformodelinterpretabilityandmayplayanimportantroleintheperformance BrainTumorLocalization.",
+        "id": "paper_015_res_1"
+      }
+    },
+    {
+      "id": 121,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thenormalizedheatmap(SanityMap(cid:15)[01])scalesthecontribution ofeachpixelinthelearningprocess,rangingfromnone(\u201c0\u201d)tothemostsignificant(\u201c1\u201d) pixelsinthe2-dimensionalimage.",
+        "id": "paper_015_res_2"
+      }
+    },
+    {
+      "id": 122,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thethresholdforstatisticalsignificancewasdefinedasp<0.05. 3. Results The Grad-CAM method provided representative heatmaps, which can be used to quantitively and qualitatively investigate the performance of convolutional neural net- works.",
+        "id": "paper_015_res_3"
+      }
+    },
+    {
+      "id": 123,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thecorrelationanalysisshowedasignificant agreementbetweenthemodels\u2019predictionaccuracyandspecificityinlocalizingtumor lesions(R=0.46,p=0.005).",
+        "id": "paper_015_res_4"
+      }
+    },
+    {
+      "id": 124,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "However, the results showed relationshipbetweenthemodels\u2019predictionsandintermsofitsfeatures.",
+        "id": "paper_015_res_5"
+      }
+    },
+    {
+      "id": 125,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The results be used to explore significant features in the training phase, identifying data skew, or indicated that, among the implemented three models, the DenseNet-121 performed better debuggingmodelperformance.",
+        "id": "paper_015_res_6"
+      }
+    },
+    {
+      "id": 126,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "machine learning"
+      }
+    },
+    {
+      "id": 127,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "ct"
+      }
+    },
+    {
+      "id": 128,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Abstract This study examined whether using an artificial neural network (ANN) helps beginners in diagnostic cardiac imaging to achieve similar results to experts when interpreting stress myocardial perfusion imaging (MPI).",
+        "id": "paper_017_res_0"
+      }
+    },
+    {
+      "id": 129,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "An expert and a beginner interpreted stress/rest MPI with or without the ANN and the results were compared.",
+        "id": "paper_017_res_1"
+      }
+    },
+    {
+      "id": 130,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We classified 2 groups (insignificant perfusion group and significant perfusion group) and compared them.",
+        "id": "paper_017_res_2"
+      }
+    },
+    {
+      "id": 131,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In the same way, classified 2 groups (insignificant ischemia group and significant ischemia group) and compared them.",
+        "id": "paper_017_res_3"
+      }
+    },
+    {
+      "id": 132,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Besides, the ANN effect for insignificant perfusion group, insignificant ischemia group and multi-vessels group were smaller for the expert than for the beginner.",
+        "id": "paper_017_res_4"
+      }
+    },
+    {
+      "id": 133,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "On the other hand, the ANN effect for significant perfusion group, significant ischemia group and normal vessels group were no significant.",
+        "id": "paper_017_res_5"
+      }
+    },
+    {
+      "id": 134,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "When interpreting MPI, beginners may achieve similar results to experts by using an ANN.",
+        "id": "paper_017_res_6"
+      }
+    },
+    {
+      "id": 135,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Furthermore, when beginners interpret insignificant perfusion group, insignificant ischemia group and multi-vessel group, beginners may achieve similar results to experts by using an ANN.",
+        "id": "paper_017_res_7"
+      }
+    },
+    {
+      "id": 136,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "It has been found with/without software, which implemented ANN, and the that ANN are powerful tools for pattern recognition, sig- results were compared.",
+        "id": "paper_017_res_8"
+      }
+    },
+    {
+      "id": 137,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The indications and stress protocols Recently, many studies have shown that AI and ML followed the guidelines of the Japanese Circulation Society significantly improve the diagnostic accuracy not only in [5].",
+        "id": "paper_017_res_9"
+      }
+    },
+    {
+      "id": 138,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "eeg"
+      }
+    },
+    {
+      "id": 139,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Clinical signs of recovery or deterioration, which previously could be observed, are now concealed by sedation, analgesia, and muscle paralysis.",
+        "id": "paper_018_res_0"
+      }
+    },
+    {
+      "id": 140,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "diffi cult to diff erentiate whether a specifi c EEG pattern is Th is is a convenient method to monitor cerebral function the result of sedation or of an underlying pathologic in comatose patients after cardiac arrest but has yet to be condition.",
+        "id": "paper_018_res_1"
+      }
+    },
+    {
+      "id": 141,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results: A total of 403 patients comprising 242 (60%) males and 161 (40%) females with clinical diagnosis of GE had EEG.",
+        "id": "paper_019_res_0"
+      }
+    },
+    {
+      "id": 142,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Before adjustment for confounders, female gender (P = 0.0001), pediatric age group (P = 0.0388), duration of epilepsy of 1\u20134 years (P = 0.01387), uncontrolled seizure (P = 0.0060), and seizure frequency (P = 0.0001) were significantly associated with the presence of abnormal EEG.",
+        "id": "paper_019_res_1"
+      }
+    },
+    {
+      "id": 143,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The repeatability of the EEG microstate method can directly influence the stability of the experimental results and thus their reliability.",
+        "id": "paper_020_res_0"
+      }
+    },
+    {
+      "id": 144,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Among the studies that examined the repeatability of EEG microstate analysis, few of them also provided the datasets used to derive their findings.",
+        "id": "paper_020_res_1"
+      }
+    },
+    {
+      "id": 145,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "This practice makes it difficult to reuse datasets and reproduce its experi- mental results, and these difficulties prevent greater understanding of the data from being gained.",
+        "id": "paper_020_res_2"
+      }
+    },
+    {
+      "id": 146,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "He then completed numerous tasks and multiple simultaneous signals were recorded (the results of these tasks and Scientific Data | (2024) 11:379 | https://doi.org/10.1038/s41597-024-03241-z 2 www.nature.com/scientificdata/ www.nature.com/scientificdata Fig.",
+        "id": "paper_020_res_3"
+      }
+    },
+    {
+      "id": 147,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "preprocessing.m mri_nii_format HRV_result EEG_Cleaned_data s0000066-0001-00001-000128-01.nii ECG_01_hrv.mat D_01_cleaned.set s0000066-0002-00001-000002-01.nii ECG_02_hrv.mat D_02_cleaned.set ...... ......",
+        "id": "paper_020_res_4"
+      }
+    },
+    {
+      "id": 148,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "anatomy_result microstate analysis_demo.m D25_1_source_result.mat modkmeans_result.mat Fig.",
+        "id": "paper_020_res_5"
+      }
+    },
+    {
+      "id": 149,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "These become an important source of information about the results suggest that examination of the frequency effects of clinical effects of AEDs [28].",
+        "id": "paper_021_res_0"
+      }
+    },
+    {
+      "id": 150,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "and \u03b1 bands was reduced, while \u03b2 activity was increased in relation to the effect that was observed under carbamazepine [41].",
+        "id": "paper_021_res_1"
+      }
+    },
+    {
+      "id": 151,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "As is was impaired under medication with carbamazepine or phe- evident in Table 1, the most common findings are EEG nytoin",
+        "id": "paper_021_res_2"
+      }
+    },
+    {
+      "id": 152,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The results showed that the machine learning model could distinguish patients with AD-related biomarker changes, achieving 68.1% accuracy (AUROC 0.75) for amyloid beta and 71.2% accuracy (AUROC 0.77) for phosphorylated tau, with gamma activities being key features.",
+        "id": "paper_022_res_0"
+      }
+    },
+    {
+      "id": 153,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "However, the practical application of these findings is limited by the increasing prevalence of dementia.",
+        "id": "paper_022_res_1"
+      }
+    },
+    {
+      "id": 154,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Samples were centrifuged at 430 \u00d7 g for 5 min, after which the resulting supernatant was aliquoted and stored at \u2013 80 \u00b0C until analysis.",
+        "id": "paper_022_res_2"
+      }
+    },
+    {
+      "id": 155,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We included patients with A\u03b2 pathology traits determined by a CSF A\u03b21\u201342/A\u03b21\u201340 ratio lower than 0.070515, which was identified as the cutoff value best predicting amyloid PET results in our previous study.",
+        "id": "paper_022_res_3"
+      }
+    },
+    {
+      "id": 156,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The \u201cExtra Trees classifier\u201d is an ensemble learning model based on decision trees, which was recently reported to exhibit promising results in the fields of EEG and neurophysiological studies22,23.",
+        "id": "paper_022_res_4"
+      }
+    },
+    {
+      "id": 157,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results Demographic data analysis The demographic and clinical information of the study participants is summarized in Table 1 and Supplementary Table S1.",
+        "id": "paper_022_res_5"
+      }
+    },
+    {
+      "id": 158,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Introduction Clinical applications of QEEG Since 1929, when Hans Berger recorded the first electro- Neuropsychiatric Disorders encephalogram (EEG), the field of brain electrophysiolo- gy has seen significant progress.",
+        "id": "paper_023_res_0"
+      }
+    },
+    {
+      "id": 159,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "QEEG in diagnosing or monitor- coherence reflect topographical inhomogeneity associated ing stroke abnormalities was first used in 1984, and the with changes in cortical architectonic and axonal fibers [30, most remarkable result was that the \u03b8/\u03b2 ratio significantly 36\u201338].",
+        "id": "paper_023_res_1"
+      }
+    },
+    {
+      "id": 160,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In addition to these observations, the results of a increased in the damaged hemisphere [11].",
+        "id": "paper_023_res_2"
+      }
+    },
+    {
+      "id": 161,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Further research will have a significant impact on increasing the Many studies have emphasized the role of QEEG as a di- confidence interval for the sensitivity and specificity of agnosis tool in learning disorders",
+        "id": "paper_023_res_3"
+      }
+    },
+    {
+      "id": 162,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "schizophrenia"
+      }
+    },
+    {
+      "id": 163,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results: A total of 501 patients were included and underwent Key Words: Electroencephalography, Dementia, Alzheimer dis- fulldiagnosticworkup.",
+        "id": "paper_024_res_0"
+      }
+    },
+    {
+      "id": 164,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "A P-value of ,0.05 was considered activitiesofdailyliving).Forthepurposeofthisstudy,cognitive statistically significant.",
+        "id": "paper_024_res_1"
+      }
+    },
+    {
+      "id": 165,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Here, we elaborate on this cognitive framework and how it changes throughout the human lifespan, focusing mostly on research evidence from younger adults and comparing these findings to data from older adults, children, and cognitively impaired populations.",
+        "id": "paper_025_res_0"
+      }
+    },
+    {
+      "id": 166,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Our results show not only on-task training improvements but also robust generalization of benefit to other cognitive control abilities.",
+        "id": "paper_025_res_1"
+      }
+    },
+    {
+      "id": 167,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Importantly, this framework has helped clarify prior research in the field that had generated confusing results when both types of external interference were interchangeably employed in cognitive paradigms.",
+        "id": "paper_025_res_2"
+      }
+    },
+    {
+      "id": 168,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Note that the research reviewed here is from the standpoint of behavioral and underlying neural performance, that is, neural mechanisms that enable the observed behavioral outcomes.",
+        "id": "paper_025_res_3"
+      }
+    },
+    {
+      "id": 169,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "These findings were consistent in fMRI-based BOLD (blood oxygen level-dependent) neural activity in visual cortex and in early sensory ERPs (event- related potentials) and in frontal theta oscillations, which mark top-down engagement with relevant versus irrelevant information.",
+        "id": "paper_025_res_4"
+      }
+    },
+    {
+      "id": 170,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Zanto and Gazzaley (2009) further demonstrated the ecological importance of the neural findings, as optimal WM performance within individuals was related to the extent of neural interference Prog Brain Res.",
+        "id": "paper_025_res_5"
+      }
+    },
+    {
+      "id": 171,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Performance measures revealed that WM accuracy was significantly reduced in the setting of distraction and even worse when interrupted by another task.",
+        "id": "paper_025_res_6"
+      }
+    },
+    {
+      "id": 172,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Recently, we replicated these findings for intrasensory interference during auditory WM (Mishra et al., 2013).",
+        "id": "paper_025_res_7"
+      }
+    },
+    {
+      "id": 173,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Visual distractors during the recall phase significantly reduced LTM accuracy.",
+        "id": "paper_025_res_8"
+      }
+    },
+    {
+      "id": 174,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The authors concluded that bottom-up influences from visual distractions interfere with the top-down selection of episodic details mediated by a capacity-limited frontal control region, resulting in impaired recollection.",
+        "id": "paper_025_res_9"
+      }
+    },
+    {
+      "id": 175,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results: We identified 26 studies (N = 702).",
+        "id": "paper_026_res_0"
+      }
+    },
+    {
+      "id": 176,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Findings var- ied but most consistently involved treatment- associated cognitive control network (CCN) activity increases with cognitive improvements, or CCN activity decreases with no cognitive change, and increased functional connectivity.",
+        "id": "paper_026_res_1"
+      }
+    },
+    {
+      "id": 177,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Updated 2020 network (CCN) and hyper- activity (i.e., failure to suppress) in the guidelines.19 default mode network (DMN) were identified as the most consis- tent neural correlates of cognitive impairment across domains.7 However, the findings regarding the direction of the aberrant ac-",
+        "id": "paper_026_res_2"
+      }
+    },
+    {
+      "id": 178,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Together, the emerging findings highlight systematic review.",
+        "id": "paper_026_res_3"
+      }
+    },
+    {
+      "id": 179,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Randomized controlled trials, open- first aim was to examine the findings and evaluate the quality of ev- label trials, or relevant experimental trials were eligible for inclusion.",
+        "id": "paper_026_res_4"
+      }
+    },
+    {
+      "id": 180,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "id": "paper_027_res_0",
+        "text": "Ourfindingsprimarilyprovideevi-"
+      }
+    },
+    {
+      "id": 181,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "First, it significant AD pathology in their brains2.",
+        "id": "paper_027_res_1"
+      }
+    },
+    {
+      "id": 182,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "expressionofwhichdisplayedsignificantcorrelationswithmeasures ofCRastaskloadincreased.",
+        "id": "paper_027_res_2"
+      }
+    },
+    {
+      "id": 183,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "(see\u201cMethods\u201dfordetails).Thesample\u2019smeanPLwas0.42\u00b10.3.PL Theprimaryobjective ofthisstudywasthustoinvestigatethe wassignificantlyhigherinpatientswithADDandaMCIcomparedto neuralimplementationofCRbyidentifyingtaskfMRIactivitypatterns othergroups,suggestingitsvaliditywithrespecttoclinicaldiagnosis.",
+        "id": "paper_027_res_3"
+      }
+    },
+    {
+      "id": 184,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Notably, empirical memory-relatedencodingactivity(morepositiveorlessnegative)is findingsindicatedanonlinearrelationship(Fig.1),promptingacom- linked to superior cognitive performance despite the presence of parisonofmodelswithlinearandquadratictermsforPL.Bothmodels pathology.",
+        "id": "paper_027_res_4"
+      }
+    },
+    {
+      "id": 185,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "These findings highlight the complex interplay between interactions with PL, we next tested whether education as a well- neuralactivationpatternsandcognitiveresilience.",
+        "id": "paper_027_res_5"
+      }
+    },
+    {
+      "id": 186,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "[\u22121.595,\u22120.851],t=\u22126.467),whilenofurtherindependentmaineffect gyriandsmallpartsoftherightparahippocampalcortex(clusters1 ofeducationwasobserved(p=0.575,\u03b2=0.033[\u22120.082,0.147],t= and2).Toaweakerextent,partsofthefrontalcortexalsocontributed 0.561).",
+        "id": "paper_027_res_6"
+      }
+    },
+    {
+      "id": 187,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The effects of revascularization on MemorialHospital,FraserHealthAuthority, Surrey,BritishColumbia,Canada anyaspectsofcognition,however,arenotwellunderstood,asconflictingresultsare 3DepartmentofRadiology,FraserHealth reported,whichhavemainlybeencenteredonpaper-basedcognitiveanalyses.",
+        "id": "paper_028_res_0"
+      }
+    },
+    {
+      "id": 188,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "6Canada\u2019sMichaelSmithGenomeSciences Results:Findingsdemonstratedtreatment-relatedalterationsinfMRIsignalintensity Centre,BCCancer,Vancouver,British Columbia,Canada andsymmetrylevel,regionalfMRIactivationpattern,andfunctionalbrainnetwork connectivity.",
+        "id": "paper_028_res_1"
+      }
+    },
+    {
+      "id": 189,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "XiaoweiSong,HealthSciencesandInnovation, SurreyMemorialHospital,FraserHealth, Conclusions:ThesefindingssupportthecontributionoffMRItotheunderstanding 1375096thAvenue,Surrey,BC,V3V1Z1, ofbrainfunctionalactivationandconnectivitychangesrevealingcognitiveeffectsof Canada.",
+        "id": "paper_028_res_2"
+      }
+    },
+    {
+      "id": 190,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "cificfMRItasks(task-phasefMRI),wherethepatternsoffluctuation mentsforseverecarotidstenosisincludemedicaltherapyandcarotid oftheBOLDsignalsareobservedinresponsetothetask.",
+        "id": "paper_028_res_3"
+      }
+    },
+    {
+      "id": 191,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Meanwhile, endarterectomy(CEA),forwhichsurgeryisperformedtoremovethe fMRIactivationcanalsobeobservedduring\u201ctask-free\u201dresting-state plaque.",
+        "id": "paper_028_res_4"
+      }
+    },
+    {
+      "id": 192,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "fMRIstudy,thedifferenceinbrainactivationchangesbetweentask mentissubjectofseveralreviews,butsofarinconclusivefindingsof runsandbaselinecanprovideinsightsintodifferentcognitivestates revascularizationhavebeenreported(Bermanetal.,2007;DeRango",
+        "id": "paper_028_res_5"
+      }
+    },
+    {
+      "id": 193,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "etal.(2008)observedposttreatmentimprovementsin29%ofthestud- FMRIhasbeenwidelyusedtostudycognitivechangesandtreat-",
+        "id": "paper_028_res_6"
+      }
+    },
+    {
+      "id": 194,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Tothebestofourknowledge,thisisthefirstattempt Mixedresultsshowninthesestudiesmaybeattributedtoseveral tosummarizefMRIresearchfindingsonthecognitiveimpactsofrevas- factors,suchascognitivelateralizationofneurocognitiveeffects,het- cularizationinpatientswithseverecarotidstenosis.",
+        "id": "paper_028_res_7"
+      }
+    },
+    {
+      "id": 195,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Wecross-checked hasbeguntobeusedincharacterizingfunctionalbrainchangesfol- thesearchresultswithGoogleScholartoensureadequateinclusionof lowing revascularization.",
+        "id": "paper_028_res_8"
+      }
+    },
+    {
+      "id": 196,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "ing\u201dor\u201cASLfMRI\u201dor\u201cMHmagneticresonanceimaging\u201dor\u201cMHspin findingsandcognitiveassessmentsblindedtodiagnosisandtreatment labels.",
+        "id": "paper_028_res_9"
+      }
+    },
+    {
+      "id": 197,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Our findings suggest that fNIRS detects changes in frontal activation in older adults (cognitively healthy and mild cognitive impairment), Received:20June2019 especially while performing cognitive and dual-tasks.",
+        "id": "paper_029_res_0"
+      }
+    },
+    {
+      "id": 198,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "DT increases thecognitive demand of walking et al. (2014) for a comprehensive review on neuroimaging of andpotentiallyresultsinadecreaseintaskperformanceinone locomotioninaging.",
+        "id": "paper_029_res_1"
+      }
+    },
+    {
+      "id": 199,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Two independent reviewers cerebralbloodflowandoxygenationwithapplicationindifferent (CU and MI) reviewed the titles and abstracts resulting from pathologies(e.g.",
+        "id": "paper_029_res_2"
+      }
+    },
+    {
+      "id": 200,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": ",stroke,psychiatricdisorders,...)resultingthus",
+        "id": "paper_029_res_3"
+      }
+    },
+    {
+      "id": 201,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "duplicates, our search resulted in 134 items.",
+        "id": "paper_029_res_4"
+      }
+    },
+    {
+      "id": 202,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Recentlypublishedreviewshaveassessedtheresults finallyincluded46articlesinourreview.",
+        "id": "paper_029_res_5"
+      }
+    },
+    {
+      "id": 203,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Our results suggest that, similarly to concrete concepts, some categories of abstract knowledge have specific brain correlates corresponding to the prevalent semantic dimensions involved in their representation.",
+        "id": "paper_030_res_0"
+      }
+    },
+    {
+      "id": 204,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The neural correlates of social and quantity-related categories are consistent, involving, respectively, the anterior temporal lobe and the intraparietal s ulcus16,17, whereas for emotion-related concepts the results are more complex.",
+        "id": "paper_030_res_1"
+      }
+    },
+    {
+      "id": 205,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We expect that presenting two concrete exemplars of the same category, e.g. two biological entities, will lead to activation suppression within the ventral visual areas tuned to concrete w ords28, resulting in a reduced fMRI signal.",
+        "id": "paper_030_res_2"
+      }
+    },
+    {
+      "id": 206,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results Abstract and concrete domains effects.",
+        "id": "paper_030_res_3"
+      }
+    },
+    {
+      "id": 207,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In the DOMAIN \u00d7 ROI interaction, significant differences were reported between ABS and CNC domains in L-MTG (mean differ- ence = 1403.28, CI 158.354; 2648.200) and L Fusiform Gyrus (mean difference = 1904.59, CI 659.664; 3149.510).",
+        "id": "paper_030_res_4"
+      }
+    },
+    {
+      "id": 208,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In the three-way CONDITION \u00d7 DOMAIN \u00d7 ROI interaction, significant effects were found for the Same Cat- egory condition between the ABS and CNC domain in L-MTG and L-FG.",
+        "id": "paper_030_res_5"
+      }
+    },
+    {
+      "id": 209,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "1A,B, Supplementary Table S1 for the results in all the ROIs).",
+        "id": "paper_030_res_6"
+      }
+    },
+    {
+      "id": 210,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "For the CNC domain in L-FG the difference between BOLD eigenvariate values of biological compared to artefacts categories was non significant (t(35) = \u2212 1.882; p = 0.068, Cohen\u2019s d = 0.44) (Fig. 1D).",
+        "id": "paper_030_res_7"
+      }
+    },
+    {
+      "id": 211,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results are shown in Supplementary Materials, Table S2.",
+        "id": "paper_030_res_8"
+      }
+    },
+    {
+      "id": 212,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We found that the neural response associated to abstract and concrete concepts significantly differed in two semantic representation regions of the left anterior temporal lobe (ATL).",
+        "id": "paper_030_res_9"
+      }
+    },
+    {
+      "id": 213,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "An emerging literatureonneurofeedbackandBrainComputerInterface(BCI)reportsexcitingresults supporting the benefits of volitional modulation of brain activity on cognition and Editedby: RodrigoOrlandoKuljis\u02c7, behavior.",
+        "id": "paper_031_res_0"
+      }
+    },
+    {
+      "id": 214,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We present preliminary results of a feasibility study exploring the USA possibilityofusingrtfMRItotrainolderadultstovolitionallycontrolbrainactivity.",
+        "id": "paper_031_res_1"
+      }
+    },
+    {
+      "id": 215,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Based *Correspondence: on these first findings, we discuss possible implementations of rtfMRI neurofeedback MohitRana makrana85@gmail.com asanoveltechniquetostudyandalleviatecognitivedeclineinhealthyandpathological aging.",
+        "id": "paper_031_res_2"
+      }
+    },
+    {
+      "id": 216,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thisfindingdemonstratedtheimportance across distributed brain regions to execute a task.",
+        "id": "paper_031_res_3"
+      }
+    },
+    {
+      "id": 217,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The L2 minimum norm source reconstruction method was used to localize areas in which a significanteffectoftheinstructionwaspresent.",
+        "id": "paper_032_res_0"
+      }
+    },
+    {
+      "id": 218,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "modulation with the use of a cognitive reappraisal strategy Therefore,inrecentyears there has beengrowing interestin by determining the modulation sequence of neural sources identifying the neural pathways associated with cognitive andtrackingtheobservedeffectsintime.",
+        "id": "paper_032_res_1"
+      }
+    },
+    {
+      "id": 219,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "These conditions differed from each other only in the directionofmodulationattemptsandwerecontrastedagainsta Taskdescription no-regulationconditionthatwascharacterizedbysignificant- lylessintense cognitive activity.",
+        "id": "paper_032_res_2"
+      }
+    },
+    {
+      "id": 220,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Results: The results revealed decreased radiality primarily inthe entorhinal, insula, frontal,and temporalcortex with further progression of disease.",
+        "id": "paper_033_res_0"
+      }
+    },
+    {
+      "id": 221,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Repetitive failures of recent drug trials guishthestagesofaging[19\u201321].Corticalmicrostructural are attributed to the application of treatment to pa- changes are often observed with aging or neurodegenera- tients with relatively advanced disease [3\u20135].",
+        "id": "paper_033_res_1"
+      }
+    },
+    {
+      "id": 222,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We evaluated whether gray Although the results from PET and CSF screening are matter radiality shows: i) early mesoscopic AD-related promising, these interventions are more invasive than pathological change, and ii) complementarity with con- MRI.",
+        "id": "paper_033_res_2"
+      }
+    },
+    {
+      "id": 223,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "However, since white matter changes in AD may information,seewww.adni-info.org. betheresultofWalleriandegeneration,followedbyneu- From the ADNI database, we analyzed subjects who rodegeneration in the gray matter",
+        "id": "paper_033_res_3"
+      }
+    },
+    {
+      "id": 224,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "DTI images were processed using the FSL package as follows: eddy current correction, rotate gradient vectors r \u00bcj^v n (cid:2)^e 1 j from the results of eddy correction, and tensor fitting to produce the MD map and primary eigenvector map.",
+        "id": "paper_033_res_4"
+      }
+    },
+    {
+      "id": 225,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The results were cluster-wise corrected for a point where it minimizes the difference between sensi- FWE-corrected p<0.05.",
+        "id": "paper_033_res_5"
+      }
+    },
+    {
+      "id": 226,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Figure 2 shows the significant tivity andspecificity [27].",
+        "id": "paper_033_res_6"
+      }
+    },
+    {
+      "id": 227,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The results were cluster-wise variable and CTh, MD, AV45, and AV1451 as the inde- corrected for a FWE-corrected p<0.05.",
+        "id": "paper_033_res_7"
+      }
+    },
+    {
+      "id": 228,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Finally,ourfindingconfirmedthattheproposedMHNmethodsignificantlyoutper- formedthenormalizationmethodofthestate-of-the-arthistogrammatching.",
+        "id": "paper_034_res_0"
+      }
+    },
+    {
+      "id": 229,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "StatisticallysignificantlyhightissuevolumeestimationsforsegmentedROIsatp- value<0.05and; iv.",
+        "id": "paper_034_res_1"
+      }
+    },
+    {
+      "id": 230,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "ImprovedDLclassificationaccuracyof94.7%,thesensitivityof95.8%,thespecificityof 94.9%,andF-Scoreof95.4%atsignificantlylowfeatureextractiontimeof12.7minutes.",
+        "id": "paper_034_res_2"
+      }
+    },
+    {
+      "id": 231,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Theresultsofpost-processingtasks,suchas ROIsegmentationandclassification,are,therefore,ofpoorreliabilityandlowaccuracy.",
+        "id": "paper_034_res_3"
+      }
+    },
+    {
+      "id": 232,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The findings show that the HoRNS-CNN model effectively manages cipher-image expansion with an asymptotic complexity of O (cid:31)",
+        "id": "paper_035_res_0"
+      }
+    },
+    {
+      "id": 233,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "the quality and speed of medical decision-making while The above studies face significant challenges in design- reducing costs, the privacy of these datasets and their ing and implementing privacy-preserving methods using critical features may be at risk of exposure to different deep CNN models.",
+        "id": "paper_035_res_1"
+      }
+    },
+    {
+      "id": 234,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The results indicate a significant reduc- intends to provide some proofs of energy efficiency, tion in homomorphic computational latency of homomorphism, and asymptotic efficiency of the pro- these circuits, particularly for values of n\u22653 , when posed HoRNS-CNN model.",
+        "id": "paper_035_res_2"
+      }
+    },
+    {
+      "id": 235,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The final tion, results, findings, and discussion, while Sect.",
+        "id": "paper_035_res_3"
+      }
+    },
+    {
+      "id": 236,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "[9]identifiedsignificantvolumetriclossintheolfactorybulbsandtracts ofPDpatientsversuscontrolsfromMRIscans,andtheinversecorrelationbetweentheglobalolfactorybulbvolume and PD duration.",
+        "id": "paper_036_res_0"
+      }
+    },
+    {
+      "id": 237,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "DecreasedFractionalAnisotropy(FA)intheSNiscommonlyobservedinPDpatientsusingDTI[12].",
+        "id": "paper_036_res_1"
+      }
+    },
+    {
+      "id": 238,
+      "labels": [
+        "Method"
+      ],
+      "properties": {
+        "name": "ica"
+      }
+    },
+    {
+      "id": 239,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Extracting meaningful neuroimage typically fall into 3 primary categories: statistical analysis, measures presents a significant challenge due to the in- classification, and clustering methods.",
+        "id": "paper_037_res_0"
+      }
+    },
+    {
+      "id": 240,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Statistical analyses herent high dimensionality, substantial noise, and pro- are commonly employed to identify significant differences nounced subject variability in neuroimages.",
+        "id": "paper_037_res_1"
+      }
+    },
+    {
+      "id": 241,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Indeed, these measures have greatly promoted based method, the key step is to determine ROIs be- the research of SZ.23,34\u201336 cause the resulting connectivity can be sensitive to the Apart from assessing local function, a key aspect locations, shapes, and sizes of ROIs.",
+        "id": "paper_037_res_2"
+      }
+    },
+    {
+      "id": 242,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Our findings suggest the importance of using multiple categories of biomarkers to better understand the level of post-stroke motor impairment.",
+        "id": "paper_038_res_0"
+      }
+    },
+    {
+      "id": 243,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Exclusion these two levels can be used to distinguish between whether improve- criteria were: significant cognitive deficit (<23/30, Montreal Cognitive ments in task performance are due to true motor recovery/restitution or Assessment)",
+        "id": "paper_038_res_1"
+      }
+    },
+    {
+      "id": 244,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "This finding is shown to have a strong patients\u2019workupprotocol. prediction of the later occurrence of TLE following the FSE.",
+        "id": "paper_039_res_0"
+      }
+    },
+    {
+      "id": 245,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "The last date of the search was May result is again validated in the lower resolution 3T MRI (16). 31, 2021.",
+        "id": "paper_039_res_1"
+      }
+    },
+    {
+      "id": 246,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "We screened the titles, abstracts, and references These results suggest that the quantitative T2 MRI can be used of all search results to identify potentially relevant studies.",
+        "id": "paper_039_res_2"
+      }
+    },
+    {
+      "id": 247,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Overall the translational nature of the MRI NEUROIMAGING BIOMARKERS results has also greatly contributed to clinical advancements as the reported neuro-imaging protocols can be applied safely to Severalneuroimaging modalities,includingstructuralmagnetic epilepticpatients.",
+        "id": "paper_039_res_3"
+      }
+    },
+    {
+      "id": 248,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "andreportedthatfocalepilepsywassignificantlymorefrequent in patients with hippocampal DWI hyperintensity than those Structural MRI without DWI changes (39).",
+        "id": "paper_039_res_4"
+      }
+    },
+    {
+      "id": 249,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "FA in the hippocampi av cortex and thalamus at 2 months after the TBI is found wassignificantlyincreasedintheSE/TBIgroupcomparedtothe to have the highest predictive value for the development of normal control group.",
+        "id": "paper_039_res_5"
+      }
+    },
+    {
+      "id": 250,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "In addition to the cortical and subcortical structures, rats have significant changes in DTI-measured FA in the early FrontiersinNeurology|www.frontiersin.org 2 August2021|Volume12|Article738658 Chenetal.",
+        "id": "paper_039_res_6"
+      }
+    },
+    {
+      "id": 251,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "Thus,furtherstudiesarewarrantedto Bertoglio et al. demonstrated diverging changes in network implementthefindingintheclinicalsetting.",
+        "id": "paper_039_res_7"
+      }
+    },
+    {
+      "id": 252,
+      "labels": [
+        "Result"
+      ],
+      "properties": {
+        "text": "wasassociatedwithseizurefrequency(37).AlthoughTSPO-PET Furthermore,thelevelofantioxidantglutathionehasshowntobe results are promising, clinical PET data on this topic is very negativelycorrelatedwiththefrequencyofspontaneousseizures limitedduetothecostandavailabilityofspecificradioligands.",
+        "id": "paper_039_res_8"
+      }
+    },
+    {
+      "id": 299,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/detection-of-gray-matter-microstructural-changes-in-alzheimer-s-disease-continuum-using-fiber-orientation.pdf",
+        "citations": [
+          "[18]",
+          "[22]",
+          "[27]",
+          "[16]",
+          "[17]",
+          "[26]",
+          "[13]",
+          "[8]"
+        ],
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_033",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Detection Of Gray Matter Microstructural Changes In Alzheimer S Disease Continuum Using Fiber Orientation"
+      }
+    },
+    {
+      "id": 300,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Alzheimer"
+      }
+    },
+    {
+      "id": 301,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/a-cognitive-framework-for-understanding-and-improving-interference-resolution-in-the-brain.pdf",
+        "citations": [
+          "(Mishra et al., 2011)",
+          "(Mishra et al., 2013)"
+        ],
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_025",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "A Cognitive Framework For Understanding And Improving Interference Resolution In The Brain"
+      }
+    },
+    {
+      "id": 302,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "brain-connectivity-analysis/disrupted-brain-functional-organization-in-epilepsy-revealed-by-graph-theory-analysis.pdf",
+        "citations": [
+          "(Achard et al., 2012)",
+          "(Zhang et al., 2011)",
+          "(Jo et al., 2014)",
+          "(Power et al., 2011)"
+        ],
+        "primary_topic": "Brain Connectivity Analysis",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "id": "paper_009",
+        "title": "Disrupted Brain Functional Organization In Epilepsy Revealed By Graph Theory Analysis"
+      }
+    },
+    {
+      "id": 303,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Epilepsy"
+      }
+    },
+    {
+      "id": 304,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/functional-near-infrared-spectroscopy-to-study-cerebral-hemodynamics-in-older-adults-during-cognitive-and-motor-tasks-a-review.pdf",
+        "citations": [
+          "(Verghese et al., 2014)",
+          "(Scholkmann et al., 2014)",
+          "(Inzitari et al., 2007)",
+          "(Plichta et al., 2006)"
+        ],
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_029",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Functional Near Infrared Spectroscopy To Study Cerebral Hemodynamics In Older Adults During Cognitive And Motor Tasks A Review"
+      }
+    },
+    {
+      "id": 305,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/pathologically-confirmed-alzheimer-s-disease-presenting-as-clinical-parkinson-s-disease-a-case-report.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_005",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Pathologically Confirmed Alzheimer S Disease Presenting As Clinical Parkinson S Disease A Case Report"
+      }
+    },
+    {
+      "id": 306,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Parkinson"
+      }
+    },
+    {
+      "id": 307,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "dl-based-interpretation/3d-cnn-for-neuropsychiatry-predicting-autism-with-interpretable-deep-learning-applied-to-minimally-preprocessed-structural-mri-data.pdf",
+        "citations": [
+          "[50]",
+          "[48]",
+          "[49]",
+          "[52]",
+          "[1]",
+          "[51]",
+          "[15]",
+          "[46]",
+          "[27]",
+          "[28]",
+          "[25]",
+          "[26]",
+          "[47]"
+        ],
+        "primary_topic": "Dl Based Interpretation",
+        "id": "paper_013",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "3D CNN For Neuropsychiatry Predicting Autism With Interpretable Deep Learning Applied To Minimally Preprocessed Structural Mri Data"
+      }
+    },
+    {
+      "id": 308,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Autism"
+      }
+    },
+    {
+      "id": 309,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "brain-connectivity-analysis/the-contribution-of-small-vessel-disease-to-neurodegeneration-focus-on-alzheimer-s-disease-parkinson-s-disease-and-multiple-sclerosis.pdf",
+        "citations": [
+          "[14]",
+          "[11]",
+          "[23]",
+          "[43]",
+          "[27]",
+          "[2]",
+          "[37]",
+          "[17]",
+          "[26]",
+          "[45]",
+          "[15]",
+          "[7]",
+          "[39]",
+          "[41]",
+          "[40]",
+          "[19]",
+          "[8]",
+          "[29]",
+          "[44]",
+          "[1]",
+          "[18]",
+          "[42]",
+          "[16]",
+          "[38]",
+          "[12]",
+          "[9]",
+          "[28]",
+          "[13]",
+          "[20]"
+        ],
+        "primary_topic": "Brain Connectivity Analysis",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "id": "paper_012",
+        "title": "The Contribution Of Small Vessel Disease To Neurodegeneration Focus On Alzheimer S Disease Parkinson S Disease And Multiple Sclerosis"
+      }
+    },
+    {
+      "id": 310,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/motor-and-cognitive-function-in-lewy-body-dementia-companson-with-alzheimer-s-and-parkinson-s-diseases.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_004",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Motor And Cognitive Function In Lewy Body Dementia Companson With Alzheimer S And Parkinson S Diseases"
+      }
+    },
+    {
+      "id": 311,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/functional-mri-evaluation-of-cognitive-effects-of-carotid-stenosis-revascularization.pdf",
+        "citations": [
+          "(Ogawa et al., 1990)",
+          "(Halliday et al., 2010)",
+          "(Flaherty et al., 2013)"
+        ],
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_028",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Functional Mri Evaluation Of Cognitive Effects Of Carotid Stenosis Revascularization"
+      }
+    },
+    {
+      "id": 312,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "brain-connectivity-analysis/anti-correlated-cortical-networks-of-intrinsic-connectivity-in-the-rat-brain.pdf",
+        "citations": [
+          "(Liang et al., 2012)",
+          "(Glover et al., 2000)"
+        ],
+        "primary_topic": "Brain Connectivity Analysis",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "id": "paper_008",
+        "title": "Anti Correlated Cortical Networks Of Intrinsic Connectivity In The Rat Brain"
+      }
+    },
+    {
+      "id": 313,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/visual-electroencephalography-assessment-in-the-diagnosis-and-prognosis-of-cognitive-disorders.pdf",
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_024",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Visual Electroencephalography Assessment In The Diagnosis And Prognosis Of Cognitive Disorders"
+      }
+    },
+    {
+      "id": 314,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/the-dynamics-of-pain-reappraisal-the-joint-contribution-of-cognitive-change-and-mental-load.pdf",
+        "citations": [
+          "(Fardo et al., 2009)",
+          "(Woo et al., 2015)",
+          "(Knudsen et al., 2011)"
+        ],
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_032",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "The Dynamics Of Pain Reappraisal The Joint Contribution Of Cognitive Change And Mental Load"
+      }
+    },
+    {
+      "id": 315,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/update-on-the-neuroimaging-and-electroencephalographic-biomarkers-of-epileptogenesis-a-literature-review.pdf",
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_039",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Update On The Neuroimaging And Electroencephalographic Biomarkers Of Epileptogenesis A Literature Review"
+      }
+    },
+    {
+      "id": 316,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/iron-ing-out-parkinsonisms-the-interplay-of-proteinopathy-and-ferroptosis-in-parkinson-s-disease-and-tau-related-parkinsonisms.pdf",
+        "citations": [
+          "[14]",
+          "[11]",
+          "[23]",
+          "[101]",
+          "[27]",
+          "[2]",
+          "[26]",
+          "[84]",
+          "[4]",
+          "[88]",
+          "[15]",
+          "[133]",
+          "[129]",
+          "[60]",
+          "[96]",
+          "[131]",
+          "[52]",
+          "[1]",
+          "[139]",
+          "[130]",
+          "[38]",
+          "[106]",
+          "[12]",
+          "[53]",
+          "[125]",
+          "[103]",
+          "[21]",
+          "[80]",
+          "[109]",
+          "[3]",
+          "[78]",
+          "[100]",
+          "[95]",
+          "[28]",
+          "[83]",
+          "[13]",
+          "[36]",
+          "[54]"
+        ],
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_003",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Iron Ing Out Parkinsonisms The Interplay Of Proteinopathy And Ferroptosis In Parkinson S Disease And Tau Related Parkinsonisms"
+      }
+    },
+    {
+      "id": 317,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "dl-based-interpretation/explainable-artificial-intelligence-for-human-machine-interaction-in-brain-tumor-localization.pdf",
+        "citations": [
+          "[24]",
+          "[6]",
+          "[4]",
+          "[20]",
+          "[01]",
+          "[30]",
+          "[1]",
+          "[3]",
+          "[18]",
+          "[2]",
+          "[16]",
+          "[17]",
+          "[25]",
+          "[19]",
+          "[29]"
+        ],
+        "primary_topic": "Dl Based Interpretation",
+        "id": "paper_015",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Explainable Artificial Intelligence For Human Machine Interaction In Brain Tumor Localization"
+      }
+    },
+    {
+      "id": 318,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/horns-cnn-model-an-energy-efficient-fully-homomorphic-residue-number-system-convolutional-neural-network-model-for-privacy-preserving-classification-of-dyslexia-neural-biomarkers.pdf",
+        "citations": [
+          "[10]",
+          "[20]",
+          "[1]",
+          "[18]",
+          "[15]",
+          "[5]",
+          "[16]",
+          "[17]",
+          "[13]",
+          "[8]",
+          "[19]"
+        ],
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_035",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Horns CNN Model An Energy Efficient Fully Homomorphic Residue Number System Convolutional Neural Network Model For Privacy Preserving Classification Of Dyslexia Neural Biomarkers"
+      }
+    },
+    {
+      "id": 319,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Dyslexia"
+      }
+    },
+    {
+      "id": 320,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/the-role-of-quantitative-eeg-in-the-diagnosis-of-neuropsychiatric-disorders.pdf",
+        "citations": [
+          "[10]",
+          "[14]",
+          "[11]",
+          "[35]",
+          "[31]",
+          "[2]",
+          "[5]",
+          "[4]",
+          "[45]",
+          "[30]",
+          "[15]",
+          "[7]",
+          "[40]",
+          "[8]",
+          "[1]",
+          "[18]",
+          "[16]",
+          "[12]",
+          "[48]",
+          "[6]",
+          "[21]",
+          "[9]",
+          "[3]",
+          "[13]",
+          "[19]"
+        ],
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_023",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "The Role Of Quantitative EEG In The Diagnosis Of Neuropsychiatric Disorders"
+      }
+    },
+    {
+      "id": 321,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/electroencephalography-abnormalities-in-generalized-epilepsy-and-their-predictors.pdf",
+        "citations": [
+          "[6]",
+          "[4]",
+          "[9]",
+          "[1]",
+          "[7]",
+          "[5]",
+          "[8]"
+        ],
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_019",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Electroencephalography Abnormalities In Generalized Epilepsy And Their Predictors"
+      }
+    },
+    {
+      "id": 322,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/clinical-review-continuous-and-simplifi-ed-electroencephalography-to-monitor-brain-recovery-after-cardiac-arrest.pdf",
+        "citations": [
+          "[10]",
+          "[14]",
+          "[11]",
+          "[35]",
+          "[9]",
+          "[30]",
+          "[15]",
+          "[42]",
+          "[28]",
+          "[27]",
+          "[38]",
+          "[37]",
+          "[41]",
+          "[26]",
+          "[33]",
+          "[36]",
+          "[34]",
+          "[29]"
+        ],
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_018",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Clinical Review Continuous And Simplifi Ed Electroencephalography To Monitor Brain Recovery After Cardiac Arrest"
+      }
+    },
+    {
+      "id": 323,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/screening-of-a-and-phosphorylated-tau-status-in-the-cerebrospinal-fluid-through-machine-learning-analysis-of-portable-electroencephalography-data.pdf",
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_022",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Screening Of A And Phosphorylated Tau Status In The Cerebrospinal Fluid Through Machine Learning Analysis Of Portable Electroencephalography Data"
+      }
+    },
+    {
+      "id": 324,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/gaussian-smoothing-and-modified-histogram-normalization-methods-to-improve-neuralbiomarker-interpretations-for-dyslexia-classification-mechanism.pdf",
+        "citations": [
+          "[24]",
+          "[14]",
+          "[11]",
+          "[23]",
+          "[22]",
+          "[31]",
+          "[17]",
+          "[26]",
+          "[30]",
+          "[15]",
+          "[19]",
+          "[8]",
+          "[29]",
+          "[18]",
+          "[16]",
+          "[12]",
+          "[6]",
+          "[21]",
+          "[9]",
+          "[28]",
+          "[25]",
+          "[32]",
+          "[13]",
+          "[20]"
+        ],
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_034",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Gaussian Smoothing And Modified Histogram Normalization Methods To Improve Neuralbiomarker Interpretations For Dyslexia Classification Mechanism"
+      }
+    },
+    {
+      "id": 325,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "dl-based-interpretation/deep-learning-only-by-normal-brain-pet-identify-unheralded-brain-anomalies.pdf",
+        "citations": [
+          "[1]",
+          "[11]",
+          "[8]"
+        ],
+        "primary_topic": "Dl Based Interpretation",
+        "id": "paper_014",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Deep Learning Only By Normal Brain PET Identify Unheralded Brain Anomalies"
+      }
+    },
+    {
+      "id": 326,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/cholinergic-correlates-of-cognitive-impairment-in-parkinson-s-disease-comparisons-with-alzheimer-s-disease.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_002",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Cholinergic Correlates Of Cognitive Impairment In Parkinson S Disease Comparisons With Alzheimer S Disease"
+      }
+    },
+    {
+      "id": 327,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/neuroimaging-and-kinematic-biomarkers-of-post-stroke-upper-limb-motor-impairment.pdf",
+        "citations": [
+          "(Boyd et al., 2017)",
+          "(Levin et al., 2009)",
+          "(Schuch et al., 2022)",
+          "(Gowland et al., 1995)",
+          "(Leibovitch et al., 2012)",
+          "(Ismail et al., 2024)",
+          "(Piscitelli et al., 2023)",
+          "(Paul et al., 2023)",
+          "(Dong et al., 2010)",
+          "(Carter et al., 2012)",
+          "(See et al., 2013)",
+          "(Stamenova et al., 2010)",
+          "(Levin et al., 2023)",
+          "(Paul et al., 2021)"
+        ],
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_038",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Neuroimaging And Kinematic Biomarkers Of Post Stroke Upper Limb Motor Impairment"
+      }
+    },
+    {
+      "id": 328,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "dl-based-interpretation/usefulness-of-an-artificial-neural-network-for-a-beginner-to-achieve-similar-interpretations-to-an-expert-when-examining-myocardial-perfusion-images.pdf",
+        "citations": [
+          "[6]",
+          "[9]",
+          "[1]",
+          "[2]",
+          "[5]",
+          "[8]"
+        ],
+        "primary_topic": "Dl Based Interpretation",
+        "id": "paper_017",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Usefulness Of An Artificial Neural Network For A Beginner To Achieve Similar Interpretations To An Expert When Examining Myocardial Perfusion Images"
+      }
+    },
+    {
+      "id": 329,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/alzheimer-s-disease-traits-in-parkinson-s-disease-without-synuclein-seeding.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_001",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Alzheimer S Disease Traits In Parkinson S Disease Without Synuclein Seeding"
+      }
+    },
+    {
+      "id": 330,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/quantitative-pharmaco-electroencephalography-in-antiepileptic-drug-research.pdf",
+        "citations": [
+          "[35]",
+          "[22]",
+          "[43]",
+          "[27]",
+          "[2]",
+          "[30]",
+          "[41]",
+          "[40]",
+          "[19]",
+          "[29]",
+          "[1]",
+          "[38]",
+          "[34]",
+          "[21]",
+          "[3]",
+          "[28]",
+          "[46]",
+          "[36]",
+          "[20]"
+        ],
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_021",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Quantitative Pharmaco Electroencephalography In Antiepileptic Drug Research"
+      }
+    },
+    {
+      "id": 331,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/neuroimage-analysis-methods-and-artificial-intelligence-techniques-for-reliable-biomarkers-and-accurate-diagnosis-of-schizophrenia-achievements-made-by-chinese-scholars-around-the-past-decade.pdf",
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_037",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Neuroimage Analysis Methods And Artificial Intelligence Techniques For Reliable Biomarkers And Accurate Diagnosis Of Schizophrenia Achievements Made By Chinese Scholars Around The Past Decade"
+      }
+    },
+    {
+      "id": 332,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Schizophrenia"
+      }
+    },
+    {
+      "id": 333,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "neuroimaging-biomarkers/multi-view-graph-convolutional-network-and-its-applications-on-neuroimage-analysis-for-parkinson-s-disease.pdf",
+        "citations": [
+          "[24]",
+          "[14]",
+          "[6]",
+          "[4]",
+          "[9]",
+          "[1]",
+          "[3]",
+          "[23]",
+          "[7]",
+          "[22]",
+          "[2]",
+          "[5]",
+          "[25]",
+          "[12]",
+          "[13]",
+          "[8]"
+        ],
+        "primary_topic": "Neuroimaging Biomarkers",
+        "id": "paper_036",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Multi View Graph Convolutional Network And Its Applications On Neuroimage Analysis For Parkinson S Disease"
+      }
+    },
+    {
+      "id": 334,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "eeg-analysis/open-access-eeg-dataset-of-repeated-measurements-from-a-single-subject-for-microstate-analysis.pdf",
+        "primary_topic": "Eeg Analysis",
+        "id": "paper_020",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Open Access EEG Dataset Of Repeated Measurements From A Single Subject For Microstate Analysis"
+      }
+    },
+    {
+      "id": 335,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "dl-based-interpretation/illuminating-the-black-box-interpreting-deep-neural-network-models-for-psychiatric-research.pdf",
+        "primary_topic": "Dl Based Interpretation",
+        "id": "paper_016",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Illuminating The Black Box Interpreting Deep Neural Network Models For Psychiatric Research"
+      }
+    },
+    {
+      "id": 336,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/cognitive-reserve-against-alzheimer-s-pathology-is-linked-to-brain-activity-during-memory-formation.pdf",
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_027",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Cognitive Reserve Against Alzheimer S Pathology Is Linked To Brain Activity During Memory Formation"
+      }
+    },
+    {
+      "id": 337,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/real-time-fmri-in-neuroscience-research-and-its-use-in-studying-the-aging-brain.pdf",
+        "citations": [
+          "(Liew et al., 2015)",
+          "(Birbaumer et al., 2013)",
+          "(Grossman et al., 2002)",
+          "(Logsdon et al., 2002)",
+          "(Eckert et al., 2010)",
+          "(Wilckens et al., 2012)",
+          "(Li et al., 2015)",
+          "(Sporns et al., 2005)",
+          "(Cabeza et al., 2004)",
+          "(Park et al., 2003)"
+        ],
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_031",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Real Time fMRI In Neuroscience Research And Its Use In Studying The Aging Brain"
+      }
+    },
+    {
+      "id": 338,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "brain-connectivity-analysis/structural-network-topology-revealed-by-white-matter-tractography-in-cannabis-users-a-graph-theoretical-analysis.pdf",
+        "citations": [
+          "(Glass et al., 1997)",
+          "(Harkany et al., 2008)",
+          "(Sporns et al., 2005)",
+          "(Jacobsen et al., 2004)",
+          "(First et al., 2002)"
+        ],
+        "primary_topic": "Brain Connectivity Analysis",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "id": "paper_011",
+        "title": "Structural Network Topology Revealed By White Matter Tractography In Cannabis Users A Graph Theoretical Analysis"
+      }
+    },
+    {
+      "id": 339,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/the-pedunculopontine-nucleus-in-parkinson-s-disease-progressive-supranuclear-palsy-and-alzheimer-s-disease.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_007",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "The Pedunculopontine Nucleus In Parkinson S Disease Progressive Supranuclear Palsy And Alzheimer S Disease"
+      }
+    },
+    {
+      "id": 340,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "alzheimer-s-parkinson-s/subclinical-zinc-deficiency-in-alzheimer-s-disease-and-parkinson-s-disease.pdf",
+        "primary_topic": "Alzheimer S Parkinson S",
+        "id": "paper_006",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Subclinical Zinc Deficiency In Alzheimer S Disease And Parkinson S Disease"
+      }
+    },
+    {
+      "id": 341,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "brain-connectivity-analysis/investigating-the-microstructural-correlation-of-white-matter-in-autism-spectrum-disorder.pdf",
+        "citations": [
+          "(Wolff et al., 2015)",
+          "(Reese et al., 2003)"
+        ],
+        "primary_topic": "Brain Connectivity Analysis",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "id": "paper_010",
+        "title": "Investigating The Microstructural Correlation Of White Matter In Autism Spectrum Disorder"
+      }
+    },
+    {
+      "id": 342,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/in-search-of-different-categories-of-abstract-concepts-a-fmri-adaptation-study.pdf",
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_030",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "In Search Of Different Categories Of Abstract Concepts A fMRI Adaptation Study"
+      }
+    },
+    {
+      "id": 343,
+      "labels": [
+        "Paper"
+      ],
+      "properties": {
+        "file_path": "fmri-cognitive-tasks/can-magnetic-resonance-imaging-enhance-the-assessment-of-potential-new-treatments-for-cognitive-impairment-in-mood-disorders-a-systematic-review-and-position-paper-by-the-international-society-for-bipolar-disorders-targeting-cognition-task-force.pdf",
+        "primary_topic": "Fmri Cognitive Tasks",
+        "id": "paper_026",
+        "source": "Local Dataset (derived from PubMed Central)",
+        "title": "Can Magnetic Resonance Imaging Enhance The Assessment Of Potential New Treatments For Cognitive Impairment In Mood Disorders A Systematic Review And Position Paper By The International Society For Bipolar Disorders Targeting Cognition Task Force"
+      }
+    },
+    {
+      "id": 344,
+      "labels": [
+        "Disease"
+      ],
+      "properties": {
+        "name": "Bipolar"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 329,
+      "end_node": 0,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 329,
+      "end_node": 1,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 329,
+      "end_node": 2,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 329,
+      "end_node": 3,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 5,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 7,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 8,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 10,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 326,
+      "end_node": 11,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 326,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 326,
+      "end_node": 13,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 326,
+      "end_node": 14,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 326,
+      "end_node": 15,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 16,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 316,
+      "end_node": 17,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 316,
+      "end_node": 18,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 316,
+      "end_node": 19,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 316,
+      "end_node": 20,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 316,
+      "end_node": 21,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 316,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 316,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 310,
+      "end_node": 22,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 310,
+      "end_node": 23,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 310,
+      "end_node": 24,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 310,
+      "end_node": 25,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 310,
+      "end_node": 26,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 310,
+      "end_node": 27,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 310,
+      "end_node": 28,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 310,
+      "end_node": 29,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 310,
+      "end_node": 30,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 5,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 16,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 7,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 8,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 10,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 305,
+      "end_node": 31,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 32,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 24,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 33,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 34,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 35,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 36,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 305,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 305,
+      "end_node": 38,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 305,
+      "end_node": 39,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 305,
+      "end_node": 40,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 305,
+      "end_node": 41,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 305,
+      "end_node": 42,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 7,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 8,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 10,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 340,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 43,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 44,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 45,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 46,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 47,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 48,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 49,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 50,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 51,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 340,
+      "end_node": 52,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 16,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 339,
+      "end_node": 53,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 339,
+      "end_node": 33,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 339,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 54,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 55,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 56,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 57,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 58,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 59,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 339,
+      "end_node": 60,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 7,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 312,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 312,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 312,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 312,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 312,
+      "end_node": 64,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 312,
+      "end_node": 65,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 312,
+      "end_node": 66,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 312,
+      "end_node": 67,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 312,
+      "end_node": 68,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 302,
+      "end_node": 69,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 302,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 302,
+      "end_node": 11,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 302,
+      "end_node": 71,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 302,
+      "end_node": 72,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 302,
+      "end_node": 73,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 302,
+      "end_node": 74,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 302,
+      "end_node": 75,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 302,
+      "end_node": 76,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 302,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 341,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 341,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 341,
+      "end_node": 69,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 341,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 341,
+      "end_node": 80,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 341,
+      "end_node": 81,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 341,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 83,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 84,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 85,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 86,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 87,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 88,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 89,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 90,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 341,
+      "end_node": 91,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 341,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 341,
+      "end_node": 92,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 338,
+      "end_node": 69,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 338,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 338,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 338,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 81,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 24,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 93,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 94,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 338,
+      "end_node": 95,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 96,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 97,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 98,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 99,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 100,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 101,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 102,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 338,
+      "end_node": 103,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 309,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 309,
+      "end_node": 24,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 309,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 309,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 309,
+      "end_node": 104,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 309,
+      "end_node": 105,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 106,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 307,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 307,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 307,
+      "end_node": 108,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 307,
+      "end_node": 109,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 307,
+      "end_node": 110,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 307,
+      "end_node": 111,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 307,
+      "end_node": 112,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 307,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 307,
+      "end_node": 113,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 307,
+      "end_node": 92,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 307,
+      "end_node": 16,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 325,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 325,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 325,
+      "end_node": 115,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 325,
+      "end_node": 116,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 325,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 317,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 317,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 317,
+      "end_node": 117,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 317,
+      "end_node": 118,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 119,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 120,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 121,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 122,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 123,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 124,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 317,
+      "end_node": 125,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 335,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 335,
+      "end_node": 118,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 335,
+      "end_node": 108,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 335,
+      "end_node": 126,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 335,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 328,
+      "end_node": 127,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 328,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 328,
+      "end_node": 11,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 328,
+      "end_node": 126,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 128,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 129,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 130,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 131,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 132,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 133,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 134,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 135,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 136,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 328,
+      "end_node": 137,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 322,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 322,
+      "end_node": 139,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 322,
+      "end_node": 140,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 321,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 321,
+      "end_node": 118,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 321,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 321,
+      "end_node": 141,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 321,
+      "end_node": 142,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 321,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 334,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 334,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 143,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 144,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 145,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 146,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 147,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 334,
+      "end_node": 148,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 334,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 330,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 330,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 330,
+      "end_node": 149,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 330,
+      "end_node": 150,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 330,
+      "end_node": 151,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 330,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 323,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 323,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 323,
+      "end_node": 126,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 323,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 323,
+      "end_node": 11,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 152,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 153,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 154,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 155,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 156,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 323,
+      "end_node": 157,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 323,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 323,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 127,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 320,
+      "end_node": 80,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 320,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 320,
+      "end_node": 158,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 320,
+      "end_node": 159,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 320,
+      "end_node": 160,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 320,
+      "end_node": 161,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 320,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 320,
+      "end_node": 5,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 320,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 320,
+      "end_node": 162,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 320,
+      "end_node": 16,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 313,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 313,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 313,
+      "end_node": 31,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 313,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 313,
+      "end_node": 71,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 313,
+      "end_node": 163,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 313,
+      "end_node": 164,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 313,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 313,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 313,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 301,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 301,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 301,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 301,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 301,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 165,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 166,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 167,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 168,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 169,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 170,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 171,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 172,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 173,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 301,
+      "end_node": 174,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 343,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 343,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 343,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 343,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 343,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 343,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 343,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 343,
+      "end_node": 175,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 343,
+      "end_node": 176,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 343,
+      "end_node": 177,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 343,
+      "end_node": 178,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 343,
+      "end_node": 179,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 343,
+      "end_node": 162,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 336,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 336,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 336,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 336,
+      "end_node": 118,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 336,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 180,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 181,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 182,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 183,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 184,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 185,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 336,
+      "end_node": 186,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 336,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 336,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 311,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 311,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 311,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 187,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 188,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 189,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 190,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 191,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 192,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 193,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 194,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 195,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 311,
+      "end_node": 196,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 311,
+      "end_node": 5,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 304,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 304,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 304,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 304,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 304,
+      "end_node": 25,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 304,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 197,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 198,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 199,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 200,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 201,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 304,
+      "end_node": 202,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 304,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 304,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 342,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 342,
+      "end_node": 11,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 342,
+      "end_node": 22,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 342,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 342,
+      "end_node": 71,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 203,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 204,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 205,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 206,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 207,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 208,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 209,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 210,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 211,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 342,
+      "end_node": 212,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 342,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 337,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 337,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 337,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 337,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 337,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 337,
+      "end_node": 213,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 337,
+      "end_node": 214,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 337,
+      "end_node": 215,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 337,
+      "end_node": 216,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 337,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 337,
+      "end_node": 162,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 314,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 314,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 314,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 314,
+      "end_node": 36,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 314,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 314,
+      "end_node": 217,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 314,
+      "end_node": 218,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 314,
+      "end_node": 219,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 299,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 299,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 299,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 299,
+      "end_node": 80,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 299,
+      "end_node": 81,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 299,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 299,
+      "end_node": 94,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 299,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 220,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 221,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 222,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 223,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 224,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 225,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 226,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 299,
+      "end_node": 227,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 299,
+      "end_node": 6,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 299,
+      "end_node": 4,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 299,
+      "end_node": 106,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 324,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 324,
+      "end_node": 228,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 324,
+      "end_node": 229,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 324,
+      "end_node": 230,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 324,
+      "end_node": 231,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 318,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 318,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 318,
+      "end_node": 126,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 318,
+      "end_node": 108,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 318,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 318,
+      "end_node": 232,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 318,
+      "end_node": 233,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 318,
+      "end_node": 234,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 318,
+      "end_node": 235,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 333,
+      "end_node": 127,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 333,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 333,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 333,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 333,
+      "end_node": 24,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 333,
+      "end_node": 236,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 333,
+      "end_node": 237,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 333,
+      "end_node": 7,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 333,
+      "end_node": 8,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 333,
+      "end_node": 10,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 333,
+      "end_node": 9,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 238,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 107,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 126,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 79,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 331,
+      "end_node": 31,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 331,
+      "end_node": 81,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 331,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 331,
+      "end_node": 239,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 331,
+      "end_node": 240,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 331,
+      "end_node": 241,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 331,
+      "end_node": 92,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 331,
+      "end_node": 162,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 327,
+      "end_node": 127,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 327,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 327,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 327,
+      "end_node": 118,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 327,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 327,
+      "end_node": 242,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 327,
+      "end_node": 243,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 327,
+      "end_node": 5,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 114,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 61,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 78,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 62,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 138,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 70,
+      "properties": {}
+    },
+    {
+      "type": "USES_METHOD",
+      "start_node": 315,
+      "end_node": 80,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 37,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 12,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 93,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 63,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 82,
+      "properties": {}
+    },
+    {
+      "type": "INVOLVES_REGION",
+      "start_node": 315,
+      "end_node": 36,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 244,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 245,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 246,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 247,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 248,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 249,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 250,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 251,
+      "properties": {}
+    },
+    {
+      "type": "REPORTS_RESULT",
+      "start_node": 315,
+      "end_node": 252,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 315,
+      "end_node": 77,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 299,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 302,
+      "end_node": 303,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 305,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 307,
+      "end_node": 308,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 309,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 310,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 316,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 318,
+      "end_node": 319,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 321,
+      "end_node": 303,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 324,
+      "end_node": 319,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 326,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 329,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 331,
+      "end_node": 332,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 333,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 336,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 339,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 306,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 340,
+      "end_node": 300,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 341,
+      "end_node": 308,
+      "properties": {}
+    },
+    {
+      "type": "STUDIES_DISEASE",
+      "start_node": 343,
+      "end_node": 344,
+      "properties": {}
+    }
+  ]
+}
