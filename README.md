@@ -1,555 +1,874 @@
 # PaperPath
 
+<div align="center">
+
+![PaperPath Logo](https://img.shields.io/badge/PaperPath-Knowledge_Graph-blueviolet?style=for-the-badge)
+
 **A Neuro-Scientific Knowledge Graph Explorer**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![Neo4j 5.12+](https://img.shields.io/badge/Neo4j-5.12+-green.svg)](https://neo4j.com/)
-[![React 19](https://img.shields.io/badge/React-19-61DAFB.svg)](https://react.dev/)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Neo4j](https://img.shields.io/badge/Neo4j-5.12+-008CC1?style=flat-square&logo=neo4j&logoColor=white)](https://neo4j.com/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![spaCy](https://img.shields.io/badge/spaCy-NLP-09A3D5?style=flat-square&logo=spacy&logoColor=white)](https://spacy.io/)
+
+[Features](#-features) • [Quick Start](#-quick-start) • [Architecture](#-architecture) • [Documentation](#-documentation) • [Demo](#-demo)
+
+</div>
 
 ---
 
-## Overview
+## 📖 Table of Contents
 
-PaperPath is an end-to-end research intelligence platform that transforms unstructured scientific literature into a structured, navigable, and high-fidelity knowledge graph. By leveraging Natural Language Processing (NLP) and graph theory, the system enables researchers to discover hidden connections between diseases, brain regions, methodologies, and experimental results.
+- [What is PaperPath?](#-what-is-paperpath)
+- [Key Features](#-key-features)
+- [Demo](#-demo)
+- [Quick Start](#-quick-start)
+- [Architecture](#-architecture)
+- [Pipeline Workflow](#-pipeline-workflow)
+- [Technology Stack](#-technology-stack)
+- [Configuration](#-configuration)
+- [Advanced Usage](#-advanced-usage)
+- [Graph Enhancement](#-graph-enhancement)
+- [API Reference](#-api-reference)
+- [Troubleshooting](#-troubleshooting)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
 
-### The Challenge
+---
 
-The modern scientific landscape produces thousands of papers daily, creating an information overload that traditional literature review methods cannot address. Critical connections between studies remain hidden in isolated documents, and manual review processes create significant bottlenecks in research workflows.
+## 🧬 What is PaperPath?
+
+<details open>
+<summary><b>Click to expand</b></summary>
+
+PaperPath transforms the way researchers interact with scientific literature by converting isolated PDF documents into an **interconnected knowledge graph**. Using advanced Natural Language Processing (NLP) and graph theory, it automatically extracts and visualizes relationships between:
+
+- 🧠 **Brain Regions** (Hippocampus, Amygdala, Prefrontal Cortex, etc.)
+- 🔬 **Research Methods** (fMRI, EEG, Deep Learning, Graph Theory, etc.)
+- 🏥 **Diseases** (Alzheimer's, Parkinson's, Depression, etc.)
+- 📊 **Results** (Statistical findings, experimental outcomes)
+- 📚 **Citations** (Cross-reference networks between papers)
+
+### The Problem
+
+```
+📄 Paper 1 → 📄 Paper 2 → 📄 Paper 3 → 📄 Paper N...
+   ↓            ↓            ↓            ↓
+Isolated    Disconnected   Hidden      Lost
+Knowledge   Insights       Patterns    Connections
+```
 
 ### The Solution
 
-PaperPath addresses these challenges through automated knowledge extraction and graph-based visualization. The platform processes raw PDF documents, extracts semantic entities and relationships using advanced NLP techniques, stores the structured data in a high-performance graph database, and provides interactive 2D/3D visualization interfaces for exploration and discovery.
+```
+        📄 Paper 1
+       /  |  \
+      /   |   \
+   🧠    🔬    🏥
+    \    |    /
+     \   |   /
+      📄 Paper 2 ←→ 📄 Paper 3
+           ↓
+      Connected Knowledge
+```
+
+</details>
 
 ---
 
-## Core Capabilities
+## ✨ Key Features
 
-### Automated Knowledge Extraction
+<table>
+<tr>
+<td width="50%">
 
-The specialized extraction engine processes raw PDF documents and converts them into canonical knowledge artifacts using spaCy-driven entity recognition with specialized PhraseMatcher logic for identifying brain regions and research methodologies. The system employs heuristic result mining through contextual analysis to extract significant findings and statistical observations from full-text bodies, and implements citation graphing using pattern matching for academic citations to build cross-reference networks between papers.
+### 🤖 Intelligent Extraction
+- **23+ Brain Regions** recognized
+- **20+ Research Methods** identified
+- **Statistical Results** mined automatically
+- **Citation Networks** built dynamically
 
-### High-Performance Graph Storage
+</td>
+<td width="50%">
 
-The system utilizes Neo4j with a multi-layered schema designed for academic inquiry. Paper nodes serve as the central anchor point for all extracted data, while distinct entity node classes represent methods, results, diseases, and brain regions. Explicit semantic links such as USES_METHOD, STUDIES_REGION, and HAS_RESULT create a comprehensive relational mapping.
+### 🎨 Interactive Visualization
+- **2D/3D Toggle** for different perspectives
+- **Real-time Search** with `/` shortcut
+- **Glassmorphism UI** for clarity
+- **Smooth Animations** and camera controls
 
-### Immersive Interactive Visualization
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-A next-generation frontend built for complex data exploration provides 2D/3D force-directed rendering with toggling between flat maps for clarity and spatial 3D models for density analysis. The glassmorphism UI offers a high-contrast, blur-filtered interface optimized for long research sessions, and real-time filtering allows instant isolation of specific node types or keyword searches.
+### 🗄️ Graph Database
+- **Neo4j Powered** for fast queries
+- **Relationship-First** data model
+- **Cypher Queries** for advanced analysis
+- **Verifiable Exports** in JSON/Cypher
 
----
+</td>
+<td width="50%">
 
-## Technology Stack
+### 🐳 Production Ready
+- **Docker Compose** one-command deploy
+- **Modular Pipeline** for easy customization
+- **Health Checks** for service reliability
+- **Scalable Architecture** from laptop to cloud
 
-### Backend and NLP
-- **Python 3.11+**: Core processing and pipeline orchestration
-- **spaCy (en_core_web_sm)**: Natural language processing for entity extraction and phrase matching
-- **Neo4j 5.12+**: Graph database for high-performance relationship mapping
-- **pdfplumber**: High-fidelity PDF text extraction
-- **Flask**: Lightweight REST API serving graph data to the frontend
-
-### Frontend
-- **React 19**: Modern component-based UI framework
-- **Tailwind CSS v4**: Utility-first styling with high-performance glassmorphism effects
-- **react-force-graph (2D/3D)**: Canvas and WebGL accelerated graph visualization
-- **Lucide React**: Premium iconography for the research interface
-
-### DevOps and Verification
-- **Docker & Docker Compose**: Containerized environment for database and processor
-- **jq**: Command-line JSON processor for data validation
-- **Cypher-Shell**: CLI for direct Neo4j interaction and restoration
-
----
-
-## Project Architecture
-
-### Directory Structure
-
-```
-PaperPath/
-├── data/                       # Input PDF research papers
-├── scripts/                    # Core Pipeline Scripts
-│   ├── generate_metadata.py   # Extract PDF metadata
-│   ├── extract_text.py         # PDF to plain text converter
-│   ├── initialize_baseline.py # Setup baseline graph
-│   ├── extract_knowledge.py   # NLP-driven entity extraction
-│   ├── enrich_graph.py         # Populate graph with entities
-│   ├── generate_report.py     # Comparative metrics generator
-│   └── export_graph.py         # Generate verifiable graph dump
-├── queries/                    # Cypher queries for audit
-│   ├── neo4j_schema.cypher    # Database schema & constraints
-│   ├── metrics.cypher          # Before/after comparison metrics
-│   └── queries.cypher          # Research queries
-├── graph_dump/                 # Verifiable Graph Data
-│   ├── paperpath.json          # Portable JSON snapshot
-│   └── paperpath.cypher        # Cypher restoration script
-├── report/                     # Assessment Deliverables
-│   ├── enhancement_report.md   # Before/after comparison
-│   ├── extraction_logic.md     # NLP logic documentation
-│   ├── baseline_metrics.json   # Raw baseline counts
-│   └── post_enrichment_metrics.json # Raw final counts
-├── outputs/                    # Intermediate Pipeline Data
-│   ├── metadata/               # Processed paper metadata
-│   ├── text_corpus/            # Extracted plain text
-│   └── extracted_knowledge/    # JSON entities from NLP
-├── backend/                    # Flask API
-├── frontend/                   # React explorer
-├── docker-compose.yml          # Container orchestration
-└── main.py                     # Full pipeline orchestrator
-```
-
-### System Architecture
-
-```
-┌─────────────────┐
-│  PDF Documents  │
-│    (data/)      │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   Metadata Extraction       │
-│   generate_metadata.py      │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   Text Extraction           │
-│   extract_text.py           │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   NLP Processing            │
-│   extract_knowledge.py      │
-│   - Entity Recognition      │
-│   - Result Mining           │
-│   - Citation Parsing        │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   Graph Enrichment          │
-│   enrich_graph.py           │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   Neo4j Database            │
-│   - Papers (Nodes)          │
-│   - Entities (Nodes)        │
-│   - Relationships (Edges)   │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   Flask REST API            │
-│   backend/app.py            │
-└────────┬────────────────────┘
-         │
-         ▼
-┌─────────────────────────────┐
-│   React Frontend            │
-│   - 2D/3D Visualization     │
-│   - Interactive Explorer    │
-└─────────────────────────────┘
-```
+</td>
+</tr>
+</table>
 
 ---
 
-## Quick Start
+## 🎬 Demo
 
-### Prerequisites
+<details>
+<summary><b>📸 Click to see screenshots</b></summary>
 
-- Docker and Docker Compose installed
-- 8GB+ RAM recommended
-- Modern web browser (Chrome, Firefox, Edge)
+### 2D Visualization
+```
+┌─────────────────────────────────────────────────────────┐
+│  PaperPath                                    🔍 Search  │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│         📄 ────── 🔬 ────── 📄                          │
+│          │         │         │                          │
+│          │         │         │                          │
+│         🧠 ────── 🏥 ────── 📊                          │
+│          │         │         │                          │
+│          │         │         │                          │
+│         📄 ────── 📄 ────── 📄                          │
+│                                                          │
+│  [2D] 3D  │  Filters: All ▼  │  🎯 Focus Mode          │
+└─────────────────────────────────────────────────────────┘
+```
 
-### Installation
+### 3D Visualization
+```
+┌─────────────────────────────────────────────────────────┐
+│  PaperPath                               🔍 Search       │
+├─────────────────────────────────────────────────────────┤
+│                                                          │
+│                    📄                                    │
+│                 ╱  │  ╲                                 │
+│               ╱    │    ╲                               │
+│             🔬     🧠     🏥                             │
+│              ╲     │     ╱                              │
+│                ╲   │   ╱                                │
+│                  📊                                      │
+│                                                          │
+│  2D [3D]  │  Filters: Methods ▼  │  🎯 Focus Mode      │
+└─────────────────────────────────────────────────────────┘
+```
 
-**1. Clone the repository**
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### One-Command Deploy
+
 ```bash
+# Clone and launch in 3 commands
 git clone https://github.com/yourusername/paperpath.git
 cd paperpath
-```
-
-**2. Add research papers**
-```bash
-mkdir -p data/
-# Place your PDF files in the data/ directory
-```
-
-**3. Launch the complete ecosystem**
-```bash
 docker-compose up --build
 ```
 
-**4. Access the system**
-- Frontend: http://localhost:8080
-- Backend API: http://localhost:5001
-- Neo4j Browser: http://localhost:7474 (credentials: neo4j/password123)
+**That's it!** Open your browser:
+- 🌐 Frontend: http://localhost:8080
+- 🔧 Backend API: http://localhost:5001
+- 🗄️ Neo4j Browser: http://localhost:7474 (neo4j/password123)
 
-### Development Setup
+### Manual Setup
 
-#### Backend Pipeline
+<details>
+<summary><b>🔧 Click for detailed installation</b></summary>
 
+#### Prerequisites
+```bash
+# Check your installations
+docker --version          # Docker 20.10+
+docker-compose --version  # Docker Compose 1.29+
+python --version          # Python 3.11+
+node --version            # Node.js 18+
+```
+
+#### Backend Setup
 ```bash
 # Install Python dependencies
 pip install spacy neo4j flask python-dotenv pdfplumber
+
+# Download spaCy model
 python -m spacy download en_core_web_sm
 
-# Run the complete pipeline
+# Run pipeline
 python main.py
 ```
 
-#### Frontend Development
-
+#### Frontend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
 
-#### Individual Pipeline Components
-
+#### Add Your Papers
 ```bash
-# Generate paper metadata
-python3 scripts/generate_metadata.py
+# Create data directory
+mkdir -p data/
 
-# Extract text from PDFs
-python3 scripts/extract_text.py
+# Copy your PDFs
+cp /path/to/your/papers/*.pdf data/
 
-# Run NLP extraction
-python3 scripts/extract_knowledge.py
-
-# Initialize baseline and enrich graph
-python3 scripts/initialize_baseline.py
-python3 scripts/enrich_graph.py
-
-# Generate comparison report
-python3 scripts/generate_report.py
-
-# Export graph data
-python3 scripts/export_graph.py
+# Process them
+python scripts/extract_knowledge.py
+python scripts/enrich_graph.py
 ```
+
+</details>
 
 ---
 
-## Verification and Assessment
+## 🏗️ Architecture
 
-### Reproducing the Graph Enhancement
+<details>
+<summary><b>📐 Click to see system architecture</b></summary>
 
-To verify the enhancement from baseline to enriched state:
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      PaperPath System                        │
+└─────────────────────────────────────────────────────────────┘
 
-```bash
-# Initialize baseline graph (papers only)
-python3 scripts/initialize_baseline.py
-
-# Enrich graph with extracted entities
-python3 scripts/enrich_graph.py
-
-# Generate comparative analysis report
-python3 scripts/generate_report.py
-
-# Export verifiable data
-python3 scripts/export_graph.py
+┌──────────────┐
+│ PDF Papers   │
+│  (data/)     │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────────────────────────────────┐
+│   EXTRACTION PIPELINE                    │
+├──────────────────────────────────────────┤
+│  1. Metadata Generator                   │
+│     └─→ extract title, authors, year    │
+│                                          │
+│  2. Text Extractor                       │
+│     └─→ PDF to plain text               │
+│                                          │
+│  3. NLP Processor                        │
+│     ├─→ Entity Recognition (spaCy)      │
+│     ├─→ Result Mining (heuristics)      │
+│     └─→ Citation Parsing (regex)        │
+└──────────────┬───────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────┐
+│   NEO4J GRAPH DATABASE                   │
+├──────────────────────────────────────────┤
+│  Nodes:                                  │
+│  • Papers (46 → 299)                     │
+│  • Methods (0 → 19)                      │
+│  • Results (0 → 203)                     │
+│  • BrainRegions (0 → 18)                 │
+│  • Diseases (7 → 20)                     │
+│                                          │
+│  Relationships:                          │
+│  • USES_METHOD (26 → 491)                │
+│  • STUDIES_REGION                        │
+│  • HAS_RESULT                            │
+│  • CITES                                 │
+└──────────────┬───────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────┐
+│   FLASK REST API                         │
+├──────────────────────────────────────────┤
+│  GET  /api/graph                         │
+│  GET  /api/node/:id                      │
+│  GET  /api/search?q=query                │
+│  GET  /api/export?format=json            │
+└──────────────┬───────────────────────────┘
+               │
+               ▼
+┌──────────────────────────────────────────┐
+│   REACT FRONTEND                         │
+├──────────────────────────────────────────┤
+│  • Force-Directed Layout (2D/3D)         │
+│  • Real-time Filtering                   │
+│  • Node Details Panel                    │
+│  • Syntax-Highlighted JSON               │
+└──────────────────────────────────────────┘
 ```
 
-### Auditing the Graph
-
-The graph can be audited using Cypher queries located in `queries/metrics.cypher`. These queries provide raw counts for nodes and relationships, verifiable via the Neo4j Browser at http://localhost:7474.
-
-### Quick Restoration
-
-To verify the final graph without running the complete extraction pipeline, use the provided Cypher restoration script.
-
-**Using Docker (Recommended)**
-
-```bash
-# Start a fresh Neo4j container
-docker run -d --name neo4j-restore \
-  -p7474:7474 -p7687:7687 \
-  -e NEO4J_AUTH=neo4j/password123 \
-  neo4j:5
-
-# Wait 15 seconds for startup, then load the graph
-docker exec -i neo4j-restore cypher-shell \
-  -u neo4j -p password123 < graph_dump/paperpath.cypher
-
-# Verify with metrics query
-docker exec -i neo4j-restore cypher-shell \
-  -u neo4j -p password123 < queries/metrics.cypher
-```
-
-**Using Local Neo4j**
-
-```bash
-cypher-shell -u <user> -p <pass> < graph_dump/paperpath.cypher
-cypher-shell -u <user> -p <pass> < queries/metrics.cypher
-```
-
-### Data Verifiability
-
-A complete dump of the enriched graph is provided in `graph_dump/paperpath.json`. This file contains every node, relationship, and property extracted during the process, ensuring reproducible results.
+</details>
 
 ---
 
-## Graph Enhancement Results
+## 🔄 Pipeline Workflow
 
-The enrichment pipeline achieved significant improvements across all metrics:
+<details>
+<summary><b>⚙️ Click to see complete pipeline</b></summary>
 
-| Metric | Baseline | Enriched | Improvement |
-|--------|----------|----------|-------------|
-| Total Nodes | 46 | 299 | +253 (+550%) |
-| Total Relationships | 26 | 491 | +465 (+1788%) |
-| Disease Nodes | 7 | 20 | +13 (+186%) |
-| Method Nodes | 0 | 19 | +19 (new) |
-| Result Nodes | 0 | 203 | +203 (new) |
-| Brain Region Nodes | 0 | 18 | +18 (new) |
-
----
-
-## Key Features
-
-### Advanced Search and Filtering
-
-The system provides instant search functionality accessible via the `/` keyboard shortcut. Node type filtering allows isolation of papers, methods, results, diseases, or brain regions, with real-time results updating as you type.
-
-### Interactive Visualization
-
-Toggle between 2D force-directed graphs and 3D spatial representations for different analytical perspectives. Node interaction reveals detailed information with syntax-highlighted JSON displays. Smooth camera animations and zoom controls enable focused exploration, with responsive design optimized for desktop and tablet viewing.
-
-### Knowledge Extraction Capabilities
-
-The NLP engine recognizes 23+ anatomical brain structures including hippocampus, amygdala, and prefrontal cortex. It identifies 20+ research methods such as fMRI, EEG, deep learning, and graph theory. Automatic disease classification detects neurological conditions, while citation network mapping establishes cross-references between papers.
-
----
-
-## Configuration
-
-### Environment Variables
+### Step-by-Step Execution
 
 ```bash
-# Neo4j Connection
+# Step 1: Generate Metadata
+python scripts/generate_metadata.py
+# Output: outputs/metadata/*.json
+
+# Step 2: Extract Text
+python scripts/extract_text.py
+# Output: outputs/text_corpus/*.txt
+
+# Step 3: Initialize Baseline Graph
+python scripts/initialize_baseline.py
+# Creates: Papers + Disease nodes only
+
+# Step 4: Extract Knowledge (NLP)
+python scripts/extract_knowledge.py
+# Output: outputs/extracted_knowledge/*.json
+
+# Step 5: Enrich Graph
+python scripts/enrich_graph.py
+# Adds: Methods, Results, BrainRegions
+
+# Step 6: Generate Report
+python scripts/generate_report.py
+# Output: report/enhancement_report.md
+
+# Step 7: Export Graph
+python scripts/export_graph.py
+# Output: graph_dump/paperpath.{json,cypher}
+```
+
+### Or Run Everything at Once
+
+```bash
+python main.py  # Executes all steps sequentially
+```
+
+</details>
+
+---
+
+## 🛠️ Technology Stack
+
+<table>
+<tr>
+<th>Layer</th>
+<th>Technology</th>
+<th>Purpose</th>
+</tr>
+<tr>
+<td><b>NLP</b></td>
+<td>
+  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" alt="spaCy"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+</td>
+<td>Entity extraction, phrase matching</td>
+</tr>
+<tr>
+<td><b>Database</b></td>
+<td>
+  <img src="https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j"/>
+</td>
+<td>Graph storage, relationship queries</td>
+</tr>
+<tr>
+<td><b>Backend</b></td>
+<td>
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
+</td>
+<td>REST API, data serving</td>
+</tr>
+<tr>
+<td><b>Frontend</b></td>
+<td>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind"/>
+</td>
+<td>Interactive UI, graph visualization</td>
+</tr>
+<tr>
+<td><b>DevOps</b></td>
+<td>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+</td>
+<td>Containerization, orchestration</td>
+</tr>
+</table>
+
+---
+
+## ⚙️ Configuration
+
+<details>
+<summary><b>🔧 Environment Variables</b></summary>
+
+Create a `.env` file:
+
+```bash
+# Neo4j Configuration
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
 NEO4J_PASSWORD=password123
 
-# Backend API
+# Backend Configuration
 FLASK_PORT=5001
 FLASK_HOST=0.0.0.0
+FLASK_DEBUG=false
 
-# Processing Options
+# Processing Configuration
 BATCH_SIZE=10
 PARALLEL_WORKERS=4
+LOG_LEVEL=INFO
+
+# Frontend Configuration
+VITE_API_URL=http://localhost:5001
+VITE_NEO4J_URI=bolt://localhost:7687
 ```
 
-### Docker Configuration
+</details>
 
-The project includes optimized Docker configurations with multi-stage builds for efficient image sizes, health checks for service dependencies, volume mounting for persistent data storage, and network isolation for enhanced security.
+<details>
+<summary><b>🎯 Custom Entity Lists</b></summary>
 
-### Custom Entity Lists
-
-Edit the seed lists in `scripts/extract_knowledge.py` to customize entity recognition:
+Edit `scripts/extract_knowledge.py`:
 
 ```python
+# Brain Regions (Add your domain-specific terms)
 BRAIN_REGIONS = [
-    "Hippocampus", "Amygdala", "Prefrontal Cortex",
-    # Add domain-specific anatomical terms
+    "Hippocampus",
+    "Amygdala",
+    "Prefrontal Cortex",
+    "Basal Ganglia",
+    # Add more...
 ]
 
+# Research Methods
 METHODS = [
-    "fMRI", "EEG", "Deep Learning", "Graph Theory",
-    # Add methodology terms relevant to your research
+    "fMRI",
+    "EEG",
+    "Deep Learning",
+    "Graph Theory",
+    # Add more...
+]
+
+# Statistical Keywords
+STATISTICAL_KEYWORDS = [
+    "p < 0.05",
+    "significant",
+    "correlation",
+    # Add more...
 ]
 ```
+
+</details>
 
 ---
 
-## Advanced Usage
+## 🎓 Advanced Usage
 
-### Batch Processing
+### 🔍 Cypher Query Examples
 
-Process large collections efficiently with parallel execution:
-
-```bash
-python scripts/extract_knowledge.py --batch-size 50 --parallel 4
-```
-
-### Export Options
-
-Export graph data for external analysis in multiple formats:
-
-```bash
-# Export to GraphML
-curl http://localhost:5001/api/export?format=graphml > graph.xml
-
-# Export to JSON
-curl http://localhost:5001/api/export?format=json > graph.json
-
-# Export to CSV
-curl http://localhost:5001/api/export?format=csv > graph.csv
-```
-
-### Custom Visualizations
-
-The frontend accepts URL parameters for customized views:
-
-```
-http://localhost:8080/?mode=3d&layout=hierarchical&filter=fMRI
-```
-
-### Cypher Query Examples
-
-Access Neo4j Browser and execute research queries:
+<details>
+<summary><b>Click for query cookbook</b></summary>
 
 ```cypher
-// Find all papers using fMRI methodology
+// 1. Find all papers using fMRI
 MATCH (p:Paper)-[:USES_METHOD]->(m:Method {name: "fMRI"})
-RETURN p, m
+RETURN p.title, p.year
+ORDER BY p.year DESC
 
-// Discover shortest path between research areas
+// 2. Discover connections between papers
 MATCH path = shortestPath(
   (p1:Paper {title: "Study A"})-[*]-(p2:Paper {title: "Study B"})
 )
 RETURN path
 
-// Find papers studying specific brain regions
-MATCH (p:Paper)-[:STUDIES_REGION]->(r:BrainRegion)
-WHERE r.name IN ["Hippocampus", "Amygdala"]
-RETURN p.title, r.name
+// 3. Find papers studying Alzheimer's with fMRI
+MATCH (p:Paper)-[:STUDIES_DISEASE]->(d:Disease {name: "Alzheimer's"})
+MATCH (p)-[:USES_METHOD]->(m:Method {name: "fMRI"})
+RETURN p.title, p.year
 
-// Identify most-cited papers
+// 4. Most-cited papers
 MATCH (p:Paper)-[:CITES]->(cited:Paper)
 RETURN cited.title, COUNT(*) as citations
 ORDER BY citations DESC
 LIMIT 10
+
+// 5. Papers studying specific brain regions
+MATCH (p:Paper)-[:STUDIES_REGION]->(r:BrainRegion)
+WHERE r.name IN ["Hippocampus", "Amygdala"]
+RETURN p.title, COLLECT(r.name) as regions
+
+// 6. Find research gaps (methods never used for a disease)
+MATCH (d:Disease {name: "Parkinson's"})
+MATCH (m:Method)
+WHERE NOT EXISTS {
+  MATCH (:Paper)-[:STUDIES_DISEASE]->(d)
+  MATCH (:Paper)-[:USES_METHOD]->(m)
+}
+RETURN m.name as unused_method
+
+// 7. Co-occurrence analysis
+MATCH (p:Paper)-[:STUDIES_REGION]->(r1:BrainRegion)
+MATCH (p)-[:STUDIES_REGION]->(r2:BrainRegion)
+WHERE r1 <> r2
+RETURN r1.name, r2.name, COUNT(p) as co_occurrences
+ORDER BY co_occurrences DESC
+LIMIT 20
 ```
 
----
+</details>
 
-## Performance Optimizations
-
-### NLP Pipeline
-
-The system employs spaCy PhraseMatcher for efficient entity recognition, parallel processing for multi-document extraction, streaming text processing for memory management, and caching of intermediate results to reduce redundant computation.
-
-### Graph Database
-
-Neo4j optimization includes indexed properties for query performance, efficient relationship type definitions for traversal patterns, batch operations for bulk node and relationship creation, and connection pooling through the Neo4j driver.
-
-### Frontend
-
-React performance optimization utilizes memoization through useMemo and useCallback hooks, efficient virtual DOM rendering updates, hardware-accelerated canvas graphics, and code splitting with lazy loading for large datasets.
-
----
-
-## Testing and Validation
-
-### Graph Metrics Validation
-
-The system performs node count verification, relationship integrity checks, citation network validation, and entity extraction accuracy assessment to ensure data quality.
-
-### Frontend Performance
-
-Memoized state management prevents unnecessary re-renders. Optimized graph algorithms ensure smooth visualization performance. Efficient UI update patterns maintain responsiveness even with large datasets.
-
----
-
-## Security Considerations
-
-The platform implements Neo4j authentication for secure database access, input validation with sanitized PDF processing, CORS configuration for controlled API access, and Docker container isolation for network security.
-
----
-
-## Troubleshooting
-
-### Neo4j Connection Issues
+### 📊 Export Options
 
 ```bash
-# Check Neo4j logs
-docker-compose logs neo4j
+# Export to JSON
+curl http://localhost:5001/api/export?format=json > graph.json
 
-# Verify database accessibility
-docker exec -it paperpath-neo4j cypher-shell
+# Export to GraphML (for Gephi/Cytoscape)
+curl http://localhost:5001/api/export?format=graphml > graph.xml
 
-# Reset database if needed
-docker-compose down -v
-docker-compose up --build
+# Export to CSV
+curl http://localhost:5001/api/export?format=csv > graph.csv
+
+# Export specific node types
+curl http://localhost:5001/api/export?format=json&type=Method > methods.json
 ```
 
-### PDF Processing Errors
+### 🚄 Batch Processing
 
-Ensure PDFs are text-based rather than scanned images. Check file permissions in the `data/` directory. Review processor logs with `docker-compose logs processor`. For scanned documents, consider implementing OCR preprocessing.
+```bash
+# Process large collections
+python scripts/extract_knowledge.py \
+  --batch-size 50 \
+  --parallel 4 \
+  --output outputs/batch_1/
 
-### Performance Optimization for Large Datasets
-
-For collections exceeding 1000 papers, increase Neo4j heap size in `docker-compose.yml`, enable pagination in the frontend, consider Neo4j Enterprise for clustering capabilities, and implement incremental processing strategies.
-
----
-
-## Roadmap
-
-### Version 2.0 (In Development)
-
-- LLM integration for advanced entity extraction using transformer models
-- Real-time collaboration features for multi-user graph editing
-- Advanced analytics including graph centrality and clustering algorithms
-- Multiple export formats: GraphML, CSV, JSON-LD, RDF
-- Mobile-responsive interface optimization
-- Plugin architecture for extensible extraction modules
-
-### Future Vision
-
-- Multi-language support for international research papers
-- Integration with reference managers (Zotero, Mendeley, EndNote)
-- AI-powered research recommendations based on citation patterns
-- Automated contradiction detection between conflicting results
-- Trend prediction algorithms for emerging research areas
-- OCR support for scanned documents
+# Process specific PDFs
+python scripts/extract_knowledge.py \
+  --input data/subset/*.pdf
+```
 
 ---
 
-## Documentation
+## 📈 Graph Enhancement
 
-Comprehensive documentation is available throughout the project:
+<details open>
+<summary><b>📊 Before & After Metrics</b></summary>
 
-- **API Reference**: Backend endpoints documented in `backend/app.py`
-- **NLP Engine**: Extraction logic detailed in `report/extraction_logic.md`
-- **Graph Schema**: Neo4j model defined in `queries/neo4j_schema.cypher`
-- **Enhancement Report**: Comparative analysis in `report/enhancement_report.md`
-- **User Guide**: Interactive tutorial in the frontend interface
+| Metric | Baseline | Enriched | Improvement |
+|--------|----------|----------|-------------|
+| **Total Nodes** | 46 | 299 | +253 (⬆️ 550%) |
+| **Total Relationships** | 26 | 491 | +465 (⬆️ 1788%) |
+| **Disease Nodes** | 7 | 20 | +13 (⬆️ 186%) |
+| **Method Nodes** | 0 | 19 | +19 (✨ new) |
+| **Result Nodes** | 0 | 203 | +203 (✨ new) |
+| **BrainRegion Nodes** | 0 | 18 | +18 (✨ new) |
+
+### Visual Comparison
+
+**Baseline Graph**
+```
+📄 ─── 📄 ─── 📄
+│       │       │
+🏥     🏥     🏥
+```
+
+**Enriched Graph**
+```
+    📄 ─── 🔬 ─── 📄
+   /│\     │     /│\
+  / │ \    │    / │ \
+🧠 🏥 📊  🔬  🧠 🏥 📊
+  \ │ /    │    \ │ /
+   \│/     │     \│/
+    📄 ─── 🔬 ─── 📄
+```
+
+</details>
 
 ---
 
-## Contributing
+## 📡 API Reference
 
-Contributions are welcome and appreciated. To contribute:
+<details>
+<summary><b>🔌 Click for API endpoints</b></summary>
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature-name`
-3. Implement your changes with appropriate tests
-4. Ensure all tests pass and code follows style guidelines
-5. Update documentation as needed
-6. Submit a pull request with a clear description of changes
+### Base URL
+```
+http://localhost:5001/api
+```
 
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+### Endpoints
 
----
+#### Get Full Graph
+```http
+GET /graph
+```
 
-## Citation
-
-If you use PaperPath in your research, please cite:
-
-```bibtex
-@software{paperpath2025,
-  title={PaperPath: A Neuro-Scientific Knowledge Graph Explorer},
-  author={Your Name},
-  year={2025},
-  publisher={GitHub},
-  url={https://github.com/yourusername/paperpath},
-  note={An end-to-end research intelligence platform for scientific literature analysis}
+**Response:**
+```json
+{
+  "nodes": [
+    {
+      "id": "paper_1",
+      "type": "Paper",
+      "title": "Study of Brain Networks",
+      "year": 2023
+    }
+  ],
+  "links": [
+    {
+      "source": "paper_1",
+      "target": "method_1",
+      "type": "USES_METHOD"
+    }
+  ]
 }
 ```
 
+#### Get Node Details
+```http
+GET /node/:id
+```
+
+**Response:**
+```json
+{
+  "id": "paper_1",
+  "type": "Paper",
+  "properties": {
+    "title": "Study of Brain Networks",
+    "year": 2023,
+    "authors": ["Smith J", "Doe A"]
+  },
+  "relationships": [
+    {
+      "type": "USES_METHOD",
+      "target": "method_1"
+    }
+  ]
+}
+```
+
+#### Search
+```http
+GET /search?q=fMRI&type=Method
+```
+
+**Response:**
+```json
+{
+  "results": [
+    {
+      "id": "method_1",
+      "type": "Method",
+      "name": "fMRI",
+      "count": 15
+    }
+  ]
+}
+```
+
+#### Export
+```http
+GET /export?format=json
+```
+
+**Formats:** `json`, `graphml`, `csv`, `cypher`
+
+</details>
+
 ---
+
+## 🐛 Troubleshooting
+
+<details>
+<summary><b>❌ Neo4j won't start</b></summary>
+
+```bash
+# Check logs
+docker-compose logs neo4j
+
+# Common fix: Clear volumes
+docker-compose down -v
+docker-compose up --build
+
+# Verify connection
+docker exec -it paperpath-neo4j cypher-shell -u neo4j -p password123
+```
+
+</details>
+
+<details>
+<summary><b>❌ PDF processing fails</b></summary>
+
+```bash
+# Check if PDFs are text-based (not scanned)
+pdftotext data/paper.pdf - | head
+
+# Check permissions
+ls -la data/
+
+# View processor logs
+docker-compose logs processor
+
+# Try individual file
+python scripts/extract_text.py --input data/specific_paper.pdf
+```
+
+</details>
+
+<details>
+<summary><b>❌ Frontend shows no data</b></summary>
+
+```bash
+# Check backend is running
+curl http://localhost:5001/api/graph
+
+# Check Neo4j has data
+docker exec -it paperpath-neo4j cypher-shell -u neo4j -p password123
+# Run: MATCH (n) RETURN COUNT(n);
+
+# Rebuild frontend
+cd frontend
+npm run build
+```
+
+</details>
+
+<details>
+<summary><b>❌ Slow performance with large datasets</b></summary>
+
+```bash
+# Increase Neo4j memory in docker-compose.yml
+NEO4J_dbms_memory_heap_initial__size=2G
+NEO4J_dbms_memory_heap_max__size=4G
+
+# Enable pagination in frontend (config.js)
+PAGINATION_SIZE=100
+
+# Create database indexes
+# In Neo4j Browser:
+CREATE INDEX paper_title FOR (p:Paper) ON (p.title);
+CREATE INDEX method_name FOR (m:Method) ON (m.name);
+```
+
+</details>
+
+---
+
+## 🗺️ Roadmap
+
+### ✅ Version 1.0 (Current)
+- [x] PDF text extraction
+- [x] NLP entity recognition
+- [x] Neo4j graph storage
+- [x] 2D/3D visualization
+- [x] Docker containerization
+- [x] Export functionality
+
+### 🚧 Version 2.0 (In Development)
+- [ ] LLM-powered extraction (GPT-4, Claude)
+- [ ] Real-time collaboration
+- [ ] Advanced analytics (centrality, clustering)
+- [ ] Mobile responsive interface
+- [ ] OCR for scanned documents
+- [ ] Multi-language support
+
+### 🔮 Future Vision
+- [ ] Automated literature review generation
+- [ ] Research gap identification
+- [ ] Trend prediction algorithms
+- [ ] Integration with Zotero/Mendeley
+- [ ] Contradiction detection
+- [ ] AI research recommendations
+
+---
+
+## 🤝 Contributing
+
+<details>
+<summary><b>🎯 How to contribute</b></summary>
+
+### We Welcome Contributions!
+
+**Ways to contribute:**
+- 🐛 Report bugs
+- 💡 Suggest features
+- 📝 Improve documentation
+- 🔧 Submit pull requests
+- ⭐ Star the repository
+
+### Contribution Workflow
+
+```bash
+# 1. Fork the repository
+gh repo fork yourusername/paperpath
+
+# 2. Create a feature branch
+git checkout -b feature/amazing-feature
+
+# 3. Make your changes
+# ... code, code, code ...
+
+# 4. Run tests
+python -m pytest tests/
+
+# 5. Commit with clear message
+git commit -m "Add: Amazing feature that does X"
+
+# 6. Push to your fork
+git push origin feature/amazing-feature
+
+# 7. Open a Pull Request
+gh pr create --title "Add amazing feature" --body "Description..."
+```
+
+### Code Style
+
+- **Python**: Follow PEP 8
+- **JavaScript**: Use ESLint config
+- **Commits**: Use conventional commits (feat:, fix:, docs:)
+
+</details>
+
+---
+
+## 📬 Contact & Support
+
+<div align="center">
+
+### Get Help
+
+[![Documentation](https://img.shields.io/badge/Docs-Read-blue?style=for-the-badge)](./report/)
+[![Issues](https://img.shields.io/badge/Issues-Report-red?style=for-the-badge)](https://github.com/yourusername/paperpath/issues)
+[![Discussions](https://img.shields.io/badge/Discuss-Forum-green?style=for-the-badge)](https://github.com/yourusername/paperpath/discussions)
+
+</div>
+
+---
+
+<div align="center">
+
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/paperpath&type=Date)](https://star-history.com/#yourusername/paperpath&Date)
+
+---
+
+**Built with ❤️ for the research community**
+
+*Transforming scientific literature into actionable knowledge graphs*
+
+[⬆ Back to top](#paperpath)
+
+</div>
