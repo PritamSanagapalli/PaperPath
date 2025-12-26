@@ -126,44 +126,44 @@ Knowledge   Insights       Patterns    Connections
 
 ## 🎬 Demo
 
-<details>
+<details open>
 <summary><b>📸 Click to see screenshots</b></summary>
 
-### 2D Visualization
-```
-┌─────────────────────────────────────────────────────────┐
-│  PaperPath                                    🔍 Search  │
-├─────────────────────────────────────────────────────────┤
-│                                                          │
-│         📄 ────── 🔬 ────── 📄                          │
-│          │         │         │                          │
-│          │         │         │                          │
-│         🧠 ────── 🏥 ────── 📊                          │
-│          │         │         │                          │
-│          │         │         │                          │
-│         📄 ────── 📄 ────── 📄                          │
-│                                                          │
-│  [2D] 3D  │  Filters: All ▼  │  🎯 Focus Mode          │
-└─────────────────────────────────────────────────────────┘
-```
+### 2D Visualization Mode
+![PaperPath 2D View](https://raw.githubusercontent.com/PritamSanagapalli/PaperPath/main/screenshot-2d.png)
 
-### 3D Visualization
-```
-┌─────────────────────────────────────────────────────────┐
-│  PaperPath                               🔍 Search       │
-├─────────────────────────────────────────────────────────┤
-│                                                          │
-│                    📄                                    │
-│                 ╱  │  ╲                                 │
-│               ╱    │    ╲                               │
-│             🔬     🧠     🏥                             │
-│              ╲     │     ╱                              │
-│                ╲   │   ╱                                │
-│                  📊                                      │
-│                                                          │
-│  2D [3D]  │  Filters: Methods ▼  │  🎯 Focus Mode      │
-└─────────────────────────────────────────────────────────┘
-```
+The 2D view provides a clear, force-directed layout perfect for detailed navigation and exploration. Features include:
+- **Color-coded nodes** by type (Papers, Methods, Results, Diseases, Brain Regions)
+- **Interactive filters** on the left sidebar
+- **Real-time statistics** showing node counts
+- **Search functionality** with keyboard shortcut (`/`)
+- **Smooth zoom and pan** controls
+
+---
+
+### 3D Visualization Mode
+![PaperPath 3D View](https://raw.githubusercontent.com/PritamSanagapalli/PaperPath/main/screenshot-3d.png)
+
+The 3D view offers an immersive spatial perspective for cluster analysis and pattern discovery. Features include:
+- **Spatial depth** revealing research clusters
+- **Node tooltips** showing content previews
+- **Camera controls** for 360° exploration
+- **Flying navigation** through the knowledge graph
+- **Density visualization** of research areas
+
+---
+
+### Key Interface Elements
+
+**Sidebar Stats:**
+- 📄 **39 Papers** - Core research documents
+- 🔬 **19 Methods** - Research techniques identified
+- 📊 **203 Results** - Extracted findings
+- 🧠 **18 Regions** - Brain areas studied
+- 🏥 **20 Diseases** - Conditions researched
+
+**Filter System:**
+Toggle visibility by node type to focus your exploration on specific aspects of the research landscape.
 
 </details>
 
