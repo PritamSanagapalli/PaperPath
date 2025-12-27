@@ -871,9 +871,6 @@ gh pr create --title "Add amazing feature" --body "Description..."
 
 ---
 
-**Built with ❤️ for the research community**
-
-*Transforming scientific literature into actionable knowledge graphs*
 
 [⬆ Back to top](#paperpath)
 
